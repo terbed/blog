@@ -1,1 +1,1 @@
-Sitemap: https://terbed.github.io/blog/sitemap.xml
+Sitemap: https://terbed.github.io/sitemap.xml
