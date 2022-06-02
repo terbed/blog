@@ -13,9 +13,14 @@ my milestones and achievements. We can look at this as my CV.
 
 ### AI consultant & Developer – Self-Employment
 **_October 2020 – present_**
-- _October 2020 – present: contract with the University of Szeged (SZTE), Hungary_
+- _contract with the University of Szeged (SZTE), Hungary_
   - The project is about improving impaired speech (of dysarthric speakers) with deep learning tools, more precisely with Generative Adversarial Networks (GANs).
   - Lately, we experiment with sequence-to-sequence, transformer based voice conversion (VC) models.
+
+**_June 2022 – present_**
+- _contract with [Daxire](https://daxire.com) FinTech startup_
+  - Application of machine learning and deep learning to the financial industry.
+
 
 ### Developer & Researcher – Institute for Computer Science and Control (SZTAKI), Computational Optical Sensing and Processing Laboratory, Budapest, Hungary
 **_August 2017 – present_**
@@ -73,7 +78,8 @@ The title of my thesis work: Remote camera-based pulse estimation using deep lea
 
 ## Other
 
-### Eastern European Machine Learning summer school, organised in Virtual Budapest between 7-15th of July.
+### Summer school
+ Eastern European Machine Learning summer school, organised in Virtual Budapest between 7-15th of July, 2021.
 
 ### [Remote Pulse iphone App](https://apps.apple.com/us/app/remote-pulse/id1468899497?l=en)
 
