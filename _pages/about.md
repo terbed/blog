@@ -13,7 +13,7 @@ my milestones and achievements. We can look at this as my CV.
 
 ### AI consultant & Developer – Self-Employment
 
-**_August 2022 – present**
+**_August 2022 – present_**
 - _TongueScanner_
   - In Traditional Chinese Medicine (TCM) the tongue is a very important diagnostic tool. The
     tongue is a reflection of the internal organs and their functions and the mirror of the body’s health. 
