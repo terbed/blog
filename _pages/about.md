@@ -12,14 +12,25 @@ my milestones and achievements. We can look at this as my CV.
 ## Experience
 
 ### AI consultant & Developer – Self-Employment
-**_October 2020 – present_**
+
+**_August 2022 – present**
+- _TongueScanner_
+  - In Traditional Chinese Medicine (TCM) the tongue is a very important diagnostic tool. The
+    tongue is a reflection of the internal organs and their functions and the mirror of the body’s health. 
+  - TongueScanner is an AI-based tongue analysis tool that can help TCM practitioners to
+    diagnose their patients more accurately and efficiently.
+  - My role is to research and develop the AI models for the application.
+
+**_June 2022 – September 2022_**
+- _contract with [Daxire](https://daxire.com) FinTech startup_
+  - Application of machine learning and deep learning to the financial industry, focusing on crypto
+    currencies.
+  - Role: data scientist
+
+**_October 2020 – January 2021_**
 - _contract with the University of Szeged (SZTE), Hungary_
   - The project is about improving impaired speech (of dysarthric speakers) with deep learning tools, more precisely with Generative Adversarial Networks (GANs).
   - Lately, we experiment with sequence-to-sequence, transformer based voice conversion (VC) models.
-
-**_June 2022 – present_**
-- _contract with [Daxire](https://daxire.com) FinTech startup_
-  - Application of machine learning and deep learning to the financial industry.
 
 
 ### Developer & Researcher – Institute for Computer Science and Control (SZTAKI), Computational Optical Sensing and Processing Laboratory, Budapest, Hungary
@@ -29,7 +40,7 @@ my milestones and achievements. We can look at this as my CV.
 - My tasks were to implement and test existing classical algorithms and deep neural network architectures from literature _(python, pytorch, matlab)_, workout new ones and develop real-time software for (resource limited) embedded system environment _(c++, Qt, raspberry pi, nvidia jetson nano)_.
 - I developed an iphone application (_swift_ frontend and _c++_ backend) which can measure pulse from face or palm with front or rear camera. It is freely accessible in the apple appsotre: [Remote Pulse App](https://apps.apple.com/us/app/remote-pulse/id1468899497?l=en)
 - Since the summer of 2020, I started to work in the field of Digital Holographic Microscopy (DHM) which operates with coherent light (eg. laser) instead of incoherent light like conventional microscopy. My task is to implement and train deep neural networks which are able to recover phase for a hologram image and generate a brightfield microscope image from a single hologram using generative adversarial networks (GANs). 
-- Additionally, I work on neural-network based hologram focusing and object detection/counting/classification. 
+- Additionally, I work on neural-network based hologram focusing and object detection/counting/classification/segmentation. 
 
 ### Research Intern – [Turbine Ltd.](https://turbine.ai)
 **_March 2016 – June 2016_**
