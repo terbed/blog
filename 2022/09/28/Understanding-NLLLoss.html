@@ -159,7 +159,7 @@ where N is the number of classes and c iterates through each class; $y$ is a bin
 $$ p_i = \frac{e^{x_i}}{\sum_{c=1}^{N}e^{x_c}} $$
 
 This function exponentially highlights the class with the largest assigned value and suppresses the other ones. At this point, information from the predictions for the other classes appear in the calculated probability value. If there was a high value assigned to another class that will suppress the current class probability.</p>
-<p>if we have an imbalanced dataset we can apply class weights to correct the bias:
+<p>If we have an imbalanced dataset we can apply class weights to correct the bias:
 
 $$ - \sum_{c=1}^{N} w_c y_c \log(p_c)$$
 </p>
