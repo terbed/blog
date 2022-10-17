@@ -172,11 +172,11 @@ $$ - \sum_{c=1}^{N} w_c y_c \log(p_c)$$
 <p>Note that using LogSoftmax in the output layer and NLLLoss (negative log likelihood loss) is equivalent with  cross entropy loss.
 The output layer of the NN is LogSoftmax:
 
-$$ LogSoftmax(x) = log \frac{e^{x_c}}{\sum_{c=1}^{N} e^{x_c}} \in [- \inf, 0] $$
+$$ LogSoftmax(x_c) = l_c = log \frac{e^{x_c}}{\sum_{c=1}^{N} e^{x_c}} \in [- \inf, 0] $$
 </p>
 <p>where $x \in \mathcal{R}^{N}$ is the raw output of the NN; N is the number of classes.</p>
 <p>
-$$ NLLLoss(x) = -\sum_{c=1}^{N}y_c x_c $$
+$$ NLLLoss(x) = -\sum_{c=1}^{N}y_c l_c $$
 </p>
 <p>for the sake of simplicity we will stick to the cross entropy formulation (although our implementation use this scheme).</p>
 
