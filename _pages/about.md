@@ -40,7 +40,7 @@ my milestones and achievements. We can look at this as my CV.
 - My tasks were to implement and test existing classical algorithms and deep neural network architectures from literature _(python, pytorch, matlab)_, workout new ones and develop real-time software for (resource limited) embedded system environment _(c++, Qt, raspberry pi, nvidia jetson nano)_.
 - I developed an iphone application (_swift_ frontend and _c++_ backend) which can measure pulse from face or palm with front or rear camera. It is freely accessible in the apple appsotre: [Remote Pulse App](https://apps.apple.com/us/app/remote-pulse/id1468899497?l=en)
 - Since the summer of 2020, I started to work in the field of Digital Holographic Microscopy (DHM) which operates with coherent light (eg. laser) instead of incoherent light like conventional microscopy. My task is to implement and train deep neural networks which are able to recover phase for a hologram image and generate a brightfield microscope image from a single hologram using generative adversarial networks (GANs). 
-- Additionally, I work on neural-network based hologram focusing and object detection/counting/classification/segmentation. 
+- Recently, I work on neural-network-based hologram focusing and object detection/counting/classification/segmentation tasks and on its deployment for real-world application use cases.
 
 ### Research Intern – [Turbine Ltd.](https://turbine.ai)
 **_March 2016 – June 2016_**
@@ -56,6 +56,8 @@ using artificial intelligence and computer simulations._
 - The source code (and thesis) can be found on GitHub: https://github.com/terbed/parameter-inference
 
 ## Publications
+
+Terbe, D.; Orzó, L.; Zarándy, Á. Classification of Holograms with 3D-CNN. Sensors 2022, 22, 8366. https://doi.org/10.3390/s22218366
 
 Terbe Dániel, László Orzó, and Ákos Zarándy. __"Deep-learning-based bright-field image generation from a single hologram using an unpaired dataset."__ Optics Letters 46.22 (2021): 5567-5570.
 
