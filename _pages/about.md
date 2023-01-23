@@ -22,7 +22,7 @@ my milestones and achievements. We can look at this as my CV.
   - My role is to research and develop the AI models for the application.
 
 **_June 2022 – September 2022_**
-- _contract with Daxire FinTech startup_
+- _contract with a FinTech startup_
   - Application of machine learning and deep learning to the financial industry, focusing on crypto
     currencies.
   - Role: data scientist
