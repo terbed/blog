@@ -99,7 +99,7 @@ The title of my thesis work: Remote camera-based pulse estimation using deep lea
 I developed an Iphone application that can measure pulse remotely from face or palm. It is freely available in the apple appstore. The core algorithm is written in c++ and the UI is in swift.
 
 ## Hobby
-I like winter sports and mountain biking or hiking in nature. In my free time I play music, sing, read books, do yoga and meditate regularly.
+I like winter sports, mountain biking and hiking in nature. In my free time, I like to watch movies and create music or do some physical exercise or yoga.
 
 ## Contact me
 Currently, I live in Budapest, Hungary. \
