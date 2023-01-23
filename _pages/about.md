@@ -22,7 +22,7 @@ my milestones and achievements. We can look at this as my CV.
   - My role is to research and develop the AI models for the application.
 
 **_June 2022 – September 2022_**
-- _contract with [Daxire](https://daxire.com) FinTech startup_
+- _contract with Daxire FinTech startup_
   - Application of machine learning and deep learning to the financial industry, focusing on crypto
     currencies.
   - Role: data scientist
@@ -57,7 +57,7 @@ using artificial intelligence and computer simulations._
 
 ## Publications
 
-Terbe, D.; Orzó, L.; Zarándy, Á. Classification of Holograms with 3D-CNN. Sensors 2022, 22, 8366. https://doi.org/10.3390/s22218366
+Terbe, D.; Orzó, L.; Zarándy, Á. __Classification of Holograms with 3D-CNN.__ Sensors 2022, 22, 8366. https://doi.org/10.3390/s22218366
 
 Terbe Dániel, László Orzó, and Ákos Zarándy. __"Deep-learning-based bright-field image generation from a single hologram using an unpaired dataset."__ Optics Letters 46.22 (2021): 5567-5570.
 
