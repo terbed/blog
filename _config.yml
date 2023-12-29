@@ -16,15 +16,15 @@ notes_url: "https://enjoyment-work.netlify.app"
 profile_pic: "https://brennanbrown.ca/img/avatar.jpg"
 favicon: /assets/img/favicon.png
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://enjoyment-work.netlify.app/" # the base hostname & protocol for your site, e.g. https://example.com
-theme_color: white
+url: "https://terbed.github.io/blog/" # the base hostname & protocol for your site, e.g. https://example.com
+theme_color: black
 encoding: utf-8
 
 # Links and Social Media
 donate_link: https://ko-fi.com/t3rb3d
 repository: https://github.com/terbed/blog
 github: https://github.com/terbed
-x: https://x.com/t3rb3d4
+twitter: https://x.com/t3rb3d4
 #portfolio: https://brennanbrown.ca
 email: terbed@gmail.com
 
@@ -117,7 +117,7 @@ toc:
 # Fix github pages settings
 lsi: false
 safe: true
-# source: [your repo's top level directory]
+source: https://terbed.github.io/blog/
 incremental: false
 highlighter: rouge
 gist:
