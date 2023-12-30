@@ -113,3 +113,11 @@ toc:
   sublist_class: ""
   item_class: entry
   item_prefix: toc-
+
+lsi: false
+safe: true
+source: /blog
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
