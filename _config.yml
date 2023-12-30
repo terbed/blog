@@ -116,7 +116,7 @@ toc:
 
 lsi: false
 safe: true
-source: /blog
+source: https://terbed.github.io/blog
 incremental: false
 highlighter: rouge
 gist:
