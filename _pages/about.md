@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About Enjoyment Work
+title: About Me
 permalink: /about/
 content-type: eg
 author: false
