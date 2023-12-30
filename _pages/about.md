@@ -6,7 +6,8 @@ content-type: eg
 author: false
 ---
 
-Hello there! \
+Hello there!
+
 My name is Dániel Terbe. I live in Budapest, Hungary. In this page, I collect and summarize
 my milestones and achievements. We can look at this as my CV.
 
