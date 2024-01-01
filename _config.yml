@@ -1,14 +1,14 @@
 # Site Data
-title: "Enjoyment Work Professional Blog"
+title: "t3rb3d's Blog"
 tagline: " — a Digital Garden 🌱"
 name: "Dániel Terbe"
 author_bio:
-  "Hey there! 👋 My name is Daniel, I'm a researches and developer from Hungary, Budapest. My main focus is on Artifical Intelligence, Machine Learning, and Data Science."
+  "Hey there! 👋 My name is Daniel, I'm a researches and developer from Hungary, Budapest. My main focus is on Artifical Intelligence, Machine Learning, and Data Science. 
+  Recently, I have a special interest in the application of ML in finance."
 description: "A Digital Garden: Capturing my daily thoughts and progress, as well as curated ideas with unique synthesis – a personal zettelkasten."
 footer_description:
   'The phrase "digital garden" is a metaphor for thinking about writing and creating that focuses less on the
-  resulting "showpiece" and more on the process, care, and craft it takes to get there. While not everybody
-  has or works in a dirt garden, we all share a familiarity with the idea of what a garden is.'
+  resulting "showpiece" and more on the process, care, and craft it takes to get there.'
 notes_url: "https://t3rb3d.netlify.app/notes/"
 profile_pic: "https://avatars.githubusercontent.com/u/13771341?s=400&v=4"
 favicon: /assets/img/favicon.png

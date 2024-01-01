@@ -6,118 +6,102 @@ content-type: eg
 author: false
 ---
 
-Hello there!
+Hello there! 👋
 
-My name is Dániel Terbe. I live in Budapest, Hungary. In this page, I collect and summarize
-my milestones and achievements. We can look at this as my CV.
+My name is Dániel Terbe, residing in the vibrant city of Budapest, Hungary. 
+This page serves as a collection and summary of my milestones and achievements, much like a personal CV.
 
-I was always interested in science and technology, especially in the field of physics and computer science. Back then I hesitated about which one to choose as a major.
-I thought the ultimate thing to learn is physics where I can find answers to questions regarding existence.
-Thus, I graduated with a BSc in Physics from Eötvös Loránd University (ELTE), Hungary in 2017. During that my interest shifted from "the external to the internal" and I started to learn about the brain and the nervous system.
-In line with that, my thesis work was about the statistical inference of biophysical neuron model parameters.
-After that, I started Info-Bionics MSc studies at Pázmány Péter Catholic University (PPKE), Hungary, and started to work in the Institute for Computer Science and Control (SZTAKI, Hungary) in the Optical Sensing and Processing Laboratory.
-So I end up in the field of computer science and artificial intelligence. Here I gained a lot of experience in the field of machine learning and deep learning, especially in the field of computer vision and image processing.
-My first project here was Remote Photoplethysmography (rPPG) which is a method to measure pulse-rate from the color changes in the skin remotely with a camera. This was also my master's thesis topic in the university: Remote camera-based pulse estimation using deep learning tools.
-This work involved the development of real-time software for embedded systems and an iPhone application. After that in 2020, I started to work in the field of Digital Holographic Microscopy (DHM).
-Besides that, I had/have many other side projects utilizing machine learning and deep learning tools.
+In my academic and professional journey, I have always been deeply intrigued by science and technology, especially in the fields of physics and computer science. 
+This dual passion initially presented a dilemma in choosing my major. I was captivated by physics, seeing it as a path to understanding the fundamental questions of existence. 
+This fascination led me to pursue a BSc in Physics from Eötvös Loránd University (ELTE), Hungary, where I graduated in 2017. 
+However, during my undergraduate studies, my interests took a pivotal turn from exploring the external universe to delving into the internal complexities of the human mind. 
+In line with this shift, my thesis work was centered on the statistical inference of biophysical neuron model parameters, a project I undertook in collaboration with KOKI (Institute of Experimental Medicine – Theoretical Neuroscience Research Laboratory).
 
+Following my graduation, I embarked on an MSc in Info-Bionics at Pázmány Péter Catholic University (PPKE), Hungary. 
+Concurrently, I began my professional career at the Institute for Computer Science and Control (SZTAKI), Hungary, in the Optical Sensing and Processing Laboratory. 
+Here, in the domain of computer science and artificial intelligence, I gained extensive experience in machine learning and deep learning, particularly focusing on computer vision and image processing. 
+My first major project at SZTAKI involved Remote Photoplethysmography (rPPG), a novel method for measuring pulse rate remotely from color changes in the skin using camera technology. 
+This groundbreaking work, which was also the subject of my master's thesis, entailed the development of real-time software for embedded systems and an iPhone application. 
+In 2020, I expanded my professional scope by venturing into Digital Holographic Microscopy (DHM).
+
+Additionally, I have been involved in various side projects that leverage machine learning and deep learning tools, further enhancing my expertise in these areas.
+In the followings I will list some of my projects and experiences.
+
+
+
+## Quick Links
+- [Experience](#experience)
+- [Publications](#publications)
+- [Conferences](#conferences)
+- [Education](#education)
+- [Hobbies](#hobby)
+- [Contact](#contact-me)
+
+---
 
 ## Experience
 
-### AI consultant & Developer – Self-Employment
-
-**_August 2022 – present_**
-- _TongueScanner_
-  - In Traditional Chinese Medicine (TCM) the tongue is a very important diagnostic tool. The
-    tongue is a reflection of the internal organs and their functions and the mirror of the body’s health.
-  - TongueScanner is an AI-based tongue analysis tool that can help TCM practitioners to
-    diagnose their patients more accurately and efficiently.
-  - My role is to research and develop the AI models for the application.
+### AI Consultant & Developer – Self-Employment
+**_August 2022 – January 2022_**
+- **_TongueScanner:_** A pioneering AI-based tongue analysis tool for Traditional Chinese Medicine (TCM). The tongue is a reflection of the internal organs and their functions and the mirror of the body’s health. This project aims to enhance the diagnostic processes for TCM practitioners by analyzing various aspects of the tongue's appearance.
 
 **_June 2022 – September 2022_**
-- _contract with a FinTech startup_
-  - Application of machine learning and deep learning to the financial industry, focusing on crypto
-    currencies.
-  - Role: data scientist
+- **Contract with a FinTech Startup:** My role focused on applying machine learning and deep learning techniques to the financial industry. The primary area of application was in the cryptocurrency sector, developing models and strategies for financial analysis and predictions.
 
 **_October 2020 – January 2021_**
-- _contract with the University of Szeged (SZTE), Hungary_
-  - The project is about improving impaired speech (of dysarthric speakers) with deep learning tools, more precisely with Generative Adversarial Networks (GANs).
-  - We also experimented with sequence-to-sequence, transformer based voice conversion (VC) models.
+- **Contract with the University of Szeged (SZTE), Hungary:** Involved in a project aimed at improving impaired speech using deep learning tools. The main focus was on using Generative Adversarial Networks (GANs) and exploring transformer-based voice conversion models for dysarthric speakers.
 
-
-### Developer & Researcher – Institute for Computer Science and Control (SZTAKI), Computational Optical Sensing and Processing Laboratory, Budapest, Hungary
+### Developer & Researcher – Institute for Computer Science and Control (SZTAKI)
 **_August 2017 – present_**
+- **Remote Photoplethysmography (rPPG):** Initiated and developed a project where we used average cameras to detect subtle color changes in the skin associated with the cardiac cycle, allowing us to measure pulse-rate remotely. This project also led to the development of an iPhone application which measures pulse from the face or palm and is available in the Apple App Store: [Remote Pulse App](https://apps.apple.com/us/app/remote-pulse/id1468899497?l=en).
+- **Digital Holographic Microscopy (DHM):** Since 2020, I have been working on this innovative field, focusing on utilizing coherent light (e.g., laser) for microscopy. My responsibilities include implementing and training deep neural networks for hologram image processing and developing applications for real-world use cases such as automatic water sample analysis at waterworks.
 
-- With an average camera, we are able to detect the subtle color changes in the skin that is associated with the cardiac-cycle, thus we can measure pulse-rate remotely. The name of this field is Remote Photoplethysmography (rPPG) which was my first topic here.
-- My tasks were to implement and test existing classical algorithms and deep neural network architectures from literature _(python, pytorch, matlab)_, workout new ones and develop real-time software for (resource limited) embedded system environment _(c++, Qt, raspberry pi, nvidia jetson nano)_.
-- I developed an iphone application (_swift_ frontend and _c++_ backend) which can measure pulse from face or palm with front or rear camera. It is freely accessible in the apple appsotre: [Remote Pulse App](https://apps.apple.com/us/app/remote-pulse/id1468899497?l=en)
-- Since the summer of 2020, I started to work in the field of Digital Holographic Microscopy (DHM) which operates with coherent light (eg. laser) instead of incoherent light like conventional microscopy. My task is to implement and train deep neural networks which are able to recover phase for a hologram image and generate a brightfield microscope image from a single hologram using generative adversarial networks (GANs).
-- Recently, I lead the AI team and work on neural-network-based hologram focusing, object detection/counting/classification/segmentation tasks and on its deployment in our DHM software for real-world application use cases (for example, automatic water sample analysis at waterworks). The website of the product: [HoloDetect](https://www.holodetect.com/)
-
-### Research Intern – [Turbine Ltd.](https://turbine.ai)
-**_March 2016 – June 2016_**
-
-_Turbine’s goal is to design effective cancer combination therapies
-using artificial intelligence and computer simulations._
-- My task was to explore machine learning (deep learning) applications in the field of computational biology and present it to the team leader.
-
-### Student Researcher – Institute of Experimental Medicine (KOKI), Computational Neuroscience Workgroup, Budapest, Hungary
-**_September 2015 – March 2022_**
-- Statistical inference of neuron model parameters with computer simulations and Bayesian statistics tools to deliver richer information than simple point estimates (fitting).
-- I presented this work on Scientific Students’ Associations in Eötvös Loránd University and qualified for National Conference.
-- The source code (and thesis) can be found on GitHub: https://github.com/terbed/parameter-inference
-- This study was presented in the Society for Neuroscience (SfN) 2022 conference titled “Reliable estimation of neuronal biophysical parameters from electrophysiological recordings”. The presentation can be seen [here](https://www.dropbox.com/s/0kfvjkxp6jwm10s/SfN_2022_Kali_v2.mp4?dl=0).
+---
 
 ## Publications
 
-Terbe, D.; Orzó, L.; Zarándy, Á. __Classification of Holograms with 3D-CNN.__ Sensors 2022, 22, 8366. https://doi.org/10.3390/s22218366
+- Terbe, D.; Orzó, L.; Zarándy, Á. **"Classification of Holograms with 3D-CNN."** Sensors 2022, 22, 8366. [Read here](https://doi.org/10.3390/s22218366)
+- Terbe Dániel, László Orzó, and Ákos Zarándy. **"Deep-learning-based bright-field image generation from a single hologram using an unpaired dataset."** Optics Letters 46.22 (2021): 5567-5570.
+- Nagy, Á., Földesy, P., Jánoki, I., Terbe, D., Siket, M., Szabó, M., ... & Zarándy, Á. **"Continuous camera-based premature-infant monitoring algorithms for NICU."** Applied Sciences, 11(16), 7215.
 
-Terbe Dániel, László Orzó, and Ákos Zarándy. __"Deep-learning-based bright-field image generation from a single hologram using an unpaired dataset."__ Optics Letters 46.22 (2021): 5567-5570.
-
-Nagy, Á., Földesy, P., Jánoki, I., Terbe, D., Siket, M., Szabó, M., ... & Zarándy, Á. (2021). __Continuous camera-based premature-infant monitoring algorithms for NICU.__ Applied Sciences, 11(16), 7215.
+---
 
 ## Conferences
 
-In 2022 Society for Neuroscience (SfN) Conference Terbe D., Szoboszlay M., Nusser Z., Káli Sz. __Reliable estimation of neuronal biophysical parameters from electrophysiological recordings.__
+- **2022 Society for Neuroscience (SfN) Conference**
+  - Presentation: _"Reliable estimation of neuronal biophysical parameters from electrophysiological recordings."_ by Terbe D., Szoboszlay M., Nusser Z., Káli Sz.
+- **XVIII. Magyar Számítógépes Nyelvészeti Konferencia**
+  - Presentation: _"Hangkorverzió alkalmazása dysarthriás betegek beszédminőségének javítására"_ by Terbe, D., Tóth, L. & Ivaskó, L.
+- **2020 IEEE International Symposium on Circuits and Systems (ISCAS)**
+  - Presentation: _"Multi-Level Optimization for Enabling Life Critical Visual Inspections of Infants in Resource Limited Environment."_ by Zarándy, Á., Földesy, P., Nagy, Á., Jánoki, I., Terbe, D., Siket, M., Szabó, M., and Varga, J.
+- **KÉPAF 2019 (Debrecen, Hungary)**
+  - Presentation: _"Remote camera based heart rate estimation."_ by Terbe, Dániel, and Ákos Zarándy.
+- **CNNA 2018 (Budapest, Hungary)**
+  - Presentation: _"Remote camera based measurement of human vital signs."_ by Terbe, Dániel, and Ákos Zarándy.
 
-In XVIII. Magyar Számítógépes Nyelvészeti Konferencia. pp. 161–173.
-Terbe, D., Tóth, L. & Ivaskó, L., 2022. __Hangkorverzió alkalmazása dysarthriás betegek beszédminőségének javítására__
-
-In 2020 IEEE International Symposium on Circuits and Systems (ISCAS) (pp. 1-5). IEEE.
-Zarándy, Á., Földesy, P., Nagy, Á., Jánoki, I., Terbe, D., Siket, M., Szabó, M. and Varga, J., 2020, October. __Multi-Level Optimization for Enabling Life Critical Visual Inspections of Infants in Resource Limited Environment.__
-
-KÉPAF 2019 (Debrecen, Hungary); The 12th Conference of Hungarian Association for Image Processing and Pattern Recognition
-Terbe, Dániel, and Ákos Zarándy. __"Remote camera based heart rate estimation."__
-
-CNNA 2018 (Budapest, Hungary); The 16th International Workshop on
-Cellular Nanoscale Networks and their Applications
-Terbe, Dániel, and Ákos Zarándy. __"Remote camera based measurement of human vital signs."__ CNNA 2018; The 16th International Workshop on Cellular Nanoscale Networks and their Applications. VDE, 2018.
+---
 
 ## Education
 
-### BSc. Physics with Theoretical Physics specialization in Eötvös Loránd University Budapest, Hungary
-_From 2013 to 2017_
+### BSc. Physics with Theoretical Physics Specialization
+_Eötvös Loránd University, Budapest_
+- _From 2013 to 2017_
+- Thesis: Statistical inference of biophysical neuron model parameters.
 
-My thesis work was about statistical inference of biophysical neuron model parameters.
+### MSc. Info-Bionics Engineering
+_Pázmány Péter Catholic University, Budapest_
+- _From 2017 to 2020_
+- Thesis: Remote camera-based pulse estimation using deep learning tools.
 
-### MSc. Info-Bionics Engineering with specialization in Bionic Interfaces and Integrated Structures in Pázmány Péter Catholic University, Budapest, Hungary
-_From 2017 to 2020_
-
-The title of my thesis work: Remote camera-based pulse estimation using deep learning tools which can be found [here](https://github.com/terbed/Deep-rPPG) on GitHub.
-
-## Other
-
-### Summer school
- Eastern European Machine Learning summer school, organised in Virtual Budapest between 7-15th of July, 2021.
-
-### [Remote Pulse iphone App](https://apps.apple.com/us/app/remote-pulse/id1468899497?l=en)
-
-I developed an Iphone application that can measure pulse remotely from face or palm. It is freely available in the apple appstore. The core algorithm is written in c++ and the UI is in swift.
+---
 
 ## Hobby
-I like winter sports, mountain biking and hiking in nature. In my free time, I like to watch movies and create music or do some physical exercise or yoga.
+
+I enjoy winter sports, mountain biking, and hiking. In my free time, I like to watch movies, create music, and engage in physical exercise or yoga.
+
+---
 
 ## Contact me
+
 Currently, I live in Budapest, Hungary. \
-email: [terbed@gmail.com](mailto:terbed@gmail.com)
+Email me at: [terbed@gmail.com](mailto:terbed@gmail.com)

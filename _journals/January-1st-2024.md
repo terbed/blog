@@ -1,0 +1,9 @@
+---
+title: "January 1th, 2024"
+author: Dániel Terbe
+---
+In this year I would like to write an article series about Marcos Lopez de Padro's Advances in Financial Machine learning book.
+I will try to summarize the chapters and add my own thoughts and experiences to it – as the book is really condensed and it is hard to understand it without any prior knowledge.
+I will cherry-pick the most important parts (subjectively which are the most relevant to my current work) and try to explain them in a more understandable and comprehensive way.
+
+I would also like to review articles and books about the topic of machine learning in finance and summarize them in a similar way.
