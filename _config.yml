@@ -13,7 +13,7 @@ notes_url: "https://terbed.netlify.app/notes/"
 profile_pic: "https://avatars.githubusercontent.com/u/13771341?s=400&v=4"
 favicon: /assets/img/favicon.png
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://t3rb3d.netlify.app/" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://terbed.netlify.app/" # the base hostname & protocol for your site, e.g. https://example.com
 theme_color: white
 encoding: utf-8
 
