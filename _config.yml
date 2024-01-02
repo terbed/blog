@@ -9,7 +9,7 @@ description: "A Digital Garden: Capturing my daily thoughts and progress, as wel
 footer_description:
   'The phrase "digital garden" is a metaphor for thinking about writing and creating that focuses less on the
   resulting "showpiece" and more on the process, care, and craft it takes to get there.'
-notes_url: "https://t3rb3d.netlify.app/notes/"
+notes_url: "https://terbed.netlify.app/notes/"
 profile_pic: "https://avatars.githubusercontent.com/u/13771341?s=400&v=4"
 favicon: /assets/img/favicon.png
 baseurl: "" # the subpath of your site, e.g. /blog
