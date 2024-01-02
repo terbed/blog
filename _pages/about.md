@@ -52,22 +52,25 @@ In the followings I will list some of my projects and experiences.
 - **Contract with the University of Szeged (SZTE), Hungary:** Involved in a project aimed at improving impaired speech using deep learning tools. The main focus was on using Generative Adversarial Networks (GANs) and exploring transformer-based voice conversion models for dysarthric speakers.
 
 ### Developer & Researcher – Institute for Computer Science and Control (SZTAKI)
+__Optical Sensing and Processing Laboratory, Budapest, Hungary__
+
 **_August 2017 – present_**
 - **Remote Photoplethysmography (rPPG):** Initiated and developed a project where we used average cameras to detect subtle color changes in the skin associated with the cardiac cycle, allowing us to measure pulse-rate remotely. This project also led to the development of an iPhone application which measures pulse from the face or palm and is available in the Apple App Store: [Remote Pulse App](https://apps.apple.com/us/app/remote-pulse/id1468899497?l=en).
 - **Digital Holographic Microscopy (DHM):** Since 2020, I have been working on this innovative field, focusing on utilizing coherent light (e.g., laser) for microscopy. My responsibilities include implementing and training deep neural networks for hologram image processing and developing applications for real-world use cases such as automatic water sample analysis at waterworks. [Holodetect Instruments Ltd.](https://holodetect.com)
 
 ### Research Intern – [Turbine Ltd.](https://turbine.ai)
 **_March 2016 – June 2016_**
-_Turbine’s goal is to design effective cancer combination therapies
-using artificial intelligence and computer simulations._
-- My task was to explore machine learning (deep learning) applications in the field of computational.
+- _Turbine’s goal is to design effective cancer combination therapies using artificial intelligence and computer simulations._
+- My task was to explore machine learning (deep learning) applications in the field of computational biology.
 
 
-### Student Researcher – Institute of Experimental Medicine (KOKI), Computational Neuroscience Workgroup, Budapest, Hungary
+### Student Researcher – Institute of Experimental Medicine (KOKI)
+__Computational Neuroscience Workgroup, Budapest, Hungary__
+
 **_September 2015 – March 2022_**
-- Statistical inference of neuron model parameters with computer simulations and Bayesian statistics tools.
+- Statistical inference of realistic neuron model parameters with computer simulations and Bayesian statistics tools.
 - I presented this work on Scientific Students’ Associations in Eötvös Loránd University and qualified for National Conference.
-- The source code (and thesis) can be found on GitHub: https://github.com/terbed/parameter-inference
+- The source code (and thesis) can be found on [GitHub](https://github.com/terbed/parameter-inference).
 - This study was presented in the Society for Neuroscience (SfN) 2022 conference titled “Reliable estimation of neuronal biophysical parameters from electrophysiological recordings”. The presentation can be seen [here](https://www.dropbox.com/s/0kfvjkxp6jwm10s/SfN_2022_Kali_v2.mp4?dl=0).
 
 ---
