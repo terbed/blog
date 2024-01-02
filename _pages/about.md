@@ -54,15 +54,29 @@ In the followings I will list some of my projects and experiences.
 ### Developer & Researcher – Institute for Computer Science and Control (SZTAKI)
 **_August 2017 – present_**
 - **Remote Photoplethysmography (rPPG):** Initiated and developed a project where we used average cameras to detect subtle color changes in the skin associated with the cardiac cycle, allowing us to measure pulse-rate remotely. This project also led to the development of an iPhone application which measures pulse from the face or palm and is available in the Apple App Store: [Remote Pulse App](https://apps.apple.com/us/app/remote-pulse/id1468899497?l=en).
-- **Digital Holographic Microscopy (DHM):** Since 2020, I have been working on this innovative field, focusing on utilizing coherent light (e.g., laser) for microscopy. My responsibilities include implementing and training deep neural networks for hologram image processing and developing applications for real-world use cases such as automatic water sample analysis at waterworks.
+- **Digital Holographic Microscopy (DHM):** Since 2020, I have been working on this innovative field, focusing on utilizing coherent light (e.g., laser) for microscopy. My responsibilities include implementing and training deep neural networks for hologram image processing and developing applications for real-world use cases such as automatic water sample analysis at waterworks. [Holodetect Instruments Ltd.](https://holodetect.com)
+
+### Research Intern – [Turbine Ltd.](https://turbine.ai)
+**_March 2016 – June 2016_**
+_Turbine’s goal is to design effective cancer combination therapies
+using artificial intelligence and computer simulations._
+- My task was to explore machine learning (deep learning) applications in the field of computational.
+
+
+### Student Researcher – Institute of Experimental Medicine (KOKI), Computational Neuroscience Workgroup, Budapest, Hungary
+**_September 2015 – March 2022_**
+- Statistical inference of neuron model parameters with computer simulations and Bayesian statistics tools.
+- I presented this work on Scientific Students’ Associations in Eötvös Loránd University and qualified for National Conference.
+- The source code (and thesis) can be found on GitHub: https://github.com/terbed/parameter-inference
+- This study was presented in the Society for Neuroscience (SfN) 2022 conference titled “Reliable estimation of neuronal biophysical parameters from electrophysiological recordings”. The presentation can be seen [here](https://www.dropbox.com/s/0kfvjkxp6jwm10s/SfN_2022_Kali_v2.mp4?dl=0).
 
 ---
 
 ## Publications
 
 - Terbe, D.; Orzó, L.; Zarándy, Á. **"Classification of Holograms with 3D-CNN."** Sensors 2022, 22, 8366. [Read here](https://doi.org/10.3390/s22218366)
-- Terbe Dániel, László Orzó, and Ákos Zarándy. **"Deep-learning-based bright-field image generation from a single hologram using an unpaired dataset."** Optics Letters 46.22 (2021): 5567-5570.
-- Nagy, Á., Földesy, P., Jánoki, I., Terbe, D., Siket, M., Szabó, M., ... & Zarándy, Á. **"Continuous camera-based premature-infant monitoring algorithms for NICU."** Applied Sciences, 11(16), 7215.
+- Terbe, D; László, O.; Zarándy, Á. **"Deep-learning-based bright-field image generation from a single hologram using an unpaired dataset."** Optics Letters 46.22 (2021): 5567-5570. [Read here](https://eprints.sztaki.hu/10150/1/Terbe_5567_32478142_ny.pdf)
+- Nagy, Á., Földesy, P., Jánoki, I., Terbe, D., Siket, M., Szabó, M., ... & Zarándy, Á. **"Continuous camera-based premature-infant monitoring algorithms for NICU."** Applied Sciences, 11(16), 7215. [Read here](https://www.mdpi.com/2076-3417/11/16/7215)
 
 ---
 
@@ -86,12 +100,13 @@ In the followings I will list some of my projects and experiences.
 ### BSc. Physics with Theoretical Physics Specialization
 _Eötvös Loránd University, Budapest_
 - _From 2013 to 2017_
-- Thesis: Statistical inference of biophysical neuron model parameters.
+- Thesis: Statistical inference of biophysical neuron model parameters. [Parameter Inference](https://github.com/terbed/parameter-inference)
 
 ### MSc. Info-Bionics Engineering
+ **with specialization in Bionic Interfaces and Integrated Structures**
 _Pázmány Péter Catholic University, Budapest_
 - _From 2017 to 2020_
-- Thesis: Remote camera-based pulse estimation using deep learning tools.
+- Thesis: Remote camera-based pulse estimation using deep learning tools. [DeepRPPG](https://github.com/terbed/Deep-rPPG)
 
 ---
 
