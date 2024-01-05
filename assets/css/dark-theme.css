@@ -1,0 +1,224 @@
+/* General Styles for Dark Theme with Synthwave Color Palette */
+.dark-theme {
+    background-color: #1a1b26; /* Darker background */
+    color: #c9d1d9; /* Standard text color, light gray */
+}
+
+/* Headers */
+.dark-theme h1, .dark-theme h2, .dark-theme h3,
+.dark-theme h4, .dark-theme h5, .dark-theme h6 {
+    color:  #39d0d8; /* Bright blue for headers */
+}
+
+/* Links */
+.dark-theme a {
+    color: #f6268e; /* Vibrant green for links */
+}
+
+.dark-theme a:hover {
+    color: #3bf87d; /* Brighter neon green on hover */
+}
+
+/* Text Elements: Paragraphs, Lists, Blockquotes */
+.dark-theme p, .dark-theme ul, .dark-theme ol, .dark-theme blockquote {
+    color: #e3e4e8; /* Slightly dimmed text for readability */
+}
+
+/* Blockquotes */
+.dark-theme blockquote {
+    border-left-color: #4f4f4f; /* Dark gray border for blockquotes */
+    color: #e3e4e8; /* Lighter text color for readability */
+}
+
+/* Tables */
+.dark-theme table {
+    background-color: #1e2028; /* Slightly lighter background for tables */
+    color: #c9d1d9; /* Light text color */
+}
+
+.dark-theme th, .dark-theme td {
+    border-bottom: 1px solid #393c49; /* Subtle borders for table cells */
+}
+
+.dark-theme thead tr:nth-child(odd) {
+    background-color: #1a1b26; /* Even darker for table headers */
+}
+
+/* Code Blocks */
+.dark-theme pre, .dark-theme code, .dark-theme kbd,
+.dark-theme samp, .dark-theme var {
+    background-color: #272933; /* Dark background for code blocks */
+    color: #f4f4f8; /* Light text for code */
+    border-color: #393c49; /* Border color */
+}
+
+/* Interactive Elements: Buttons, Inputs */
+.dark-theme input[type="text"], .dark-theme .searchbar,
+.dark-theme button {
+    background-color: #272933;
+    color: #c9d1d9;
+    border: 1px solid #393c49;
+}
+
+.dark-theme input[type="text"]:hover, .dark-theme .searchbar:hover,
+.dark-theme button:hover {
+    background-color: #1e2028;
+    color: #c9d1d9;
+}
+
+/* Footer */
+.dark-theme #footer {
+    background-color: #1e2028;
+    color: #a0a1a7;
+}
+
+/* Additional Elements */
+.dark-theme img {
+    border-color: #393c49; /* Add a border or shadow to images */
+}
+
+.dark-theme hr {
+    border-top-color: #393c49; /* Subtle HR lines */
+}
+
+.dark-theme .userboard, .dark-theme .dashboard {
+    background-color: #21232d; /* Slightly different background */
+    color: #c9d1d9; /* Light text */
+    border-color: #393c49; /* Subtle border */
+}
+
+.dark-theme .link-to-notes a, .dark-theme .notes-page-heading a {
+    color: #f6268e; /* Vibrant green for links */
+}
+
+.dark-theme .link-to-notes a:hover, .dark-theme .notes-page-heading a:hover {
+    color: #3bf87d; /* Neon green on hover */
+}
+
+.dark-theme .content, .dark-theme .post-metadata, .dark-theme .tag {
+    color: #e3e4e8; /* Slightly dimmed text */
+}
+
+.dark-theme .content a:hover {
+    color: #3bf87d; /* Neon green on hover for content links */
+}
+
+.dark-theme .searchbar, .dark-theme input[type="text"] {
+    background-color: #272933; /* Dark background */
+    color: #c9d1d9; /* Light text */
+    border-color: #393c49; /* Subtle border */
+}
+
+.dark-theme .about i, .dark-theme .hashtags i, .dark-theme .categories i,
+.dark-theme .archive i, .dark-theme .rss i, .dark-theme .donate i {
+    color: #c9d1d9; /* Light for icons */
+}
+
+.dark-theme .searchbar i, .dark-theme input[type="text"] i {
+    color: #3bf87d; /* Darker for search icon */
+}
+
+.dark-theme #footer, .dark-theme .related, .dark-theme .context-menu,
+.dark-theme .popup, .dark-theme .scroll-to-top {
+    background-color: #21232d; /* Dark background */
+    color: #c9d1d9; /* Light text */
+    border-color: #393c49; /* Subtle border */
+}
+
+.dark-theme #footer a, .dark-theme .related a, .dark-theme .context-menu__link {
+    color: #3bf87d; /* Neon pink for footer links */
+}
+
+.dark-theme #footer a:hover, .dark-theme .related a:hover,
+.dark-theme .context-menu__link:hover {
+    color: #3bf87d; /* Neon green on hover */
+}
+
+@media screen and (max-width: 767px) {
+    .dark-theme .box {
+        background-color: #272933; /* Dark background for mobile */
+        color: #c9d1d9; /* Light text */
+    }
+    /* Additional responsive design adjustments */
+}
+
+
+.dark-theme .searchbar {
+    background-color: #272933; /* Darker background for the search bar */
+    border: 1px solid #f6268e; /* Neon pink border to stand out */
+}
+
+.dark-theme .searchbar input[type="text"] {
+    color: #c9d1d9; /* Light text color for readability */
+    background-color: #272933; /* Same as the searchbar background */
+    border: none; /* Remove border inside the search bar */
+}
+
+.dark-theme .searchbar input[type="text"]::placeholder {
+    color: #c9d1d9; /* Light text color for the placeholder */
+    opacity: 0.5; /* Placeholder text is less prominent */
+}
+
+.dark-theme .searchbar i {
+    color: #f6268e; /* Neon pink color for the search icon */
+}
+
+.dark-theme .searchbar input[type="text"]:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0 0 0 2px #f6268e; /* Neon pink glow effect for focus */
+}
+
+/* Update the hover state as well */
+.dark-theme .searchbar input[type="text"]:hover {
+    background-color: #1e2028; /* Slightly lighter background on hover */
+}
+
+.dark-theme header, .dark-theme .main-site-subheader {
+    background-color: #21232d;
+    color: #c9d1d9;
+}
+
+.dark-theme .menu a, .dark-theme .link-to-notes a, .dark-theme .anchor-link {
+    color: #f6268e; /* Neon pink for menu links */
+}
+
+.dark-theme .menu a:hover, .dark-theme .link-to-notes a:hover, .dark-theme .anchor-link:hover {
+    color: #3bf87d; /* Neon green on hover */
+}
+
+.dark-theme .feed-title-excerpt-block, .dark-theme .related-group, .dark-theme .context-menu-res,
+.dark-theme .popup, .dark-theme .infotip .right, .dark-theme .notes-page-main-heading {
+    background-color: #272933;
+    color: #c9d1d9;
+}
+
+.dark-theme .feed-title-excerpt-block:hover, .dark-theme .related-group:hover {
+    background-color: #1e2028;
+    color: #f6268e;
+}
+
+.dark-theme #footer, .dark-theme .scroll-to-top, .dark-theme .context-menu {
+    background-color: #21232d;
+    color: #c9d1d9;
+}
+
+.dark-theme #footer a:hover, .dark-theme .scroll-to-top a:hover {
+    color: #f6268e;
+}
+
+@media screen and (max-width: 767px) {
+    .dark-theme .box, .dark-theme .userboard, .dark-theme .dashboard {
+        background-color: #1e2028;
+    }
+
+    /* Additional responsive adjustments as needed */
+}
+
+@media print {
+    .dark-theme body, .dark-theme header, .dark-theme footer, .dark-theme section, .dark-theme article {
+        color: black;
+        background-color: white;
+    }
+    /* Additional print styles adjustments */
+}
+
