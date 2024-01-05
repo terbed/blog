@@ -60,7 +60,7 @@ collections:
     permalink: /page/:name
 
 disqus:
-  shortname: journalbar
+  shortname: t3rb3ds-blog
 
 defaults:
   - scope:
