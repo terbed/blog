@@ -134,3 +134,61 @@
 .highlight .ss {
   color: #90a959;
 }
+
+/*.note-block {*/
+/*  background-color: #f2f2f2; !* Light grey background to highlight the abstract *!*/
+/*  border-left: 4px solid #009688; !* A colored border for emphasis *!*/
+/*  padding: 15px; !* Spacing inside the block *!*/
+/*  font-size: 0.9em; !* Smaller font size *!*/
+/*  margin: 20px 0; !* Space above and below the abstract block *!*/
+/*  line-height: 1.6; !* Adjust line height for readability *!*/
+/*}*/
+
+.note-block {
+  position: relative; /* To position the icon relative to this block */
+  background-color: #f2f2f2;
+  border-left: 4px solid #009688;
+  padding: 15px;
+  padding-left: 50px; /* Extra space for the icon */
+  font-size: 0.9em;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.note-block:before {
+  content: "\f06a"; /* Unicode for Font Awesome's exclamation-circle icon */
+  font-family: "Font Awesome 5 Free"; /* Adjust if using a different version */
+  font-weight: 900; /* Necessary for Font Awesome's solid icons */
+  position: absolute;
+  left: 15px; /* Position to match padding of the note block */
+  top: 50%;
+  transform: translateY(-50%); /* Center vertically */
+  font-size: 1.5em; /* Larger size for the icon */
+  color: #009688; /* Color to match the border */
+}
+
+.abstract-block {
+  background-color: #fff8e1; /* Warm light yellow background */
+  border: 1.5px solid #d1d1d1; /* Light grey border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* More padding inside the block */
+  margin: 20px 0; /* Vertical spacing */
+  font-size: 0.9em; /* Smaller font size */
+  line-height: 1.6; /* Spacing between lines */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+}
+
+/* Optional: Style for the abstract title */
+.abstract-block strong {
+  font-weight: bold;
+  display: block; /* Makes 'Abstract' start on its own line */
+  margin-bottom: 10px; /* Spacing after the 'Abstract' title */
+  font-size: 1em; /* Slightly larger font size for the title */
+}
+
+.abstract-block p {
+  margin-bottom: 1em; /* Adds space between paragraphs */
+  color: #333; /* Slightly darker text for contrast against the warm background */
+  font-size: 0.9em; /* Smaller font size */
+  line-height: 1.6; /* Spacing between lines */
+}

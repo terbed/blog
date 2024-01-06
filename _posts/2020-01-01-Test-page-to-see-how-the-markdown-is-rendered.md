@@ -7,9 +7,25 @@ comments: true
 
 ## Philosophy:
 
+<div class="abstract-block">
+  <strong>Abstract:</strong>
+  <p>This is the first paragraph of the abstract. It gives readers a brief overview of the article.</p>
+  <p>This is the second paragraph of the abstract, continuing the summary of the content.</p>
+</div>
+
+<div class="note-block">
+  <strong>Important Note:</strong> This is a summary of the article's content. It gives readers a quick overview of what to expect in the full post.
+</div>
+
+<div class="note-block">
 Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
 
 Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions. While Markdown’s syntax has been influenced by several existing text-to-HTML filters — including Setext, atx, Textile, reStructuredText, Grutatext, and EtText — the single biggest source of inspiration for Markdown’s syntax is the format of plain text email.
+</div>
+
+<div class="note-block">
+  <strong>Abstract:</strong> This is a summary of the article's content. It gives readers a quick overview of what to expect in the full post.
+</div>
 
 To this end, Markdown’s syntax is comprised entirely of punctuation characters, which punctuation characters have been carefully chosen so as to look like what they mean. E.g., asterisks around a word actually look like _emphasis_. Markdown lists look like, well, lists. Even blockquotes look like quoted passages of text, assuming you’ve ever used email. This is intended as a quick reference and showcase.
 

@@ -12,42 +12,64 @@
         </div>
         <div class="userboard profile-board-col">
             <div class="username">
+                <i class="fa-solid fa-quote-left"></i>
                 <span>
-                    <a " href="/about">{{site.name}}</a>
+<!--                    <a href="/about">{{site.name}}</a>-->
+                    Random Quotes
                 </span>
+                <i class="fa-solid fa-quote-right"></i>
             </div>
             <div class=" userdesc">
-                <p>{{site.description}}</p>
+                <p id="random-quote"></p>
             </div>
-            <div class="link-to-notes text-right">
-                <i class="fas fa-link"></i>
-                <a href="/notes">{{site.notes_url}}/notes</a>
-            </div>
+<!--            <div class="link-to-notes text-right">-->
+<!--                <i class="fas fa-link"></i>-->
+<!--                <a href="/notes">{{site.notes_url}}/notes</a>-->
+<!--            </div>-->
         </div>
     </div>
     <div class="main-site-subheader menu disable-select text-center">
-        <div class="about">
-            <a " href="/about">
-                <i class=" fas fa-signature"></i>
-                About
+        <div class="posts">
+            <a  href="/posts">
+                <i class="fa-solid fa-feather"></i>
+                Articles
+            </a>
+        </div>
+        <div class="notes">
+            <a  href="/notes">
+                <i class="fa-regular fa-clipboard"></i>
+                Notes
+            </a>
+        </div>
+        <div class="journals">
+            <a  href="/journals">
+                <i class="fa-solid fa-book-open"></i>
+                Daily
             </a>
         </div>
         <div class="hashtags">
-            <a " href="/tags">
+            <a  href="/tags">
                 <i class=" fas fa-hashtag"></i>
                 Tags
             </a>
         </div>
         <div class="categories">
-            <a " href="/categories">
+            <a  href="/categories">
                 <i class=" far fa-folder-open"></i>
                 Categories
             </a>
         </div>
         <div class="archive">
-            <a " href="/archive">
+            <a  href="/archive">
                 <i class=" fas fa-archive"></i>
                 Archive
+            </a>
+        </div>
+        <div class="about">
+            <a  href="/about">
+<!--                <i class=" fas fa-signature"></i>-->
+                <i class="fa-solid fa-address-card"></i>
+                About
             </a>
         </div>
 <!--        <div class="rss">-->
@@ -56,12 +78,12 @@
 <!--                RSS-->
 <!--            </a>-->
 <!--        </div>-->
-        <div class="donate">
-            <a href="{{ site.donate_link }}">
-                <i class=" fas fa-coffee"></i>
-                Donate
-            </a>
-        </div>
+<!--        <div class="donate">-->
+<!--            <a href="{{ site.donate_link }}">-->
+<!--                <i class=" fas fa-coffee"></i>-->
+<!--                Donate-->
+<!--            </a>-->
+<!--        </div>-->
         <!-- Theme Toggle Switch -->
 <!--        <div class="theme-switch-container">-->
 <!--            <label class="theme-switch" for="checkbox">-->

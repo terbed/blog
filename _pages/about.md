@@ -6,6 +6,8 @@ content-type: eg
 author: false
 ---
 
+{::options parse_block_html="true" /}
+<div class="two-columns">
 Hello there! 👋
 
 My name is Dániel Terbe, residing in the vibrant city of Budapest, Hungary. 
@@ -20,13 +22,14 @@ In line with this shift, my thesis work was centered on the statistical inferenc
 Following my graduation, I embarked on an MSc in Info-Bionics at Pázmány Péter Catholic University (PPKE), Hungary. 
 Concurrently, I began my professional career at the Institute for Computer Science and Control (SZTAKI), Hungary, in the Optical Sensing and Processing Laboratory. 
 Here, in the domain of computer science and artificial intelligence, I gained extensive experience in machine learning and deep learning, particularly focusing on computer vision and image processing. 
-My first major project at SZTAKI involved Remote Photoplethysmography (rPPG), a novel method for measuring pulse rate remotely from color changes in the skin using video recordings. 
+
+My first project at SZTAKI involved Remote Photoplethysmography (rPPG), a novel method for measuring pulse rate remotely from color changes in the skin using video recordings. 
 This interesting work, which was also the subject of my master's thesis, entailed the development of real-time software for embedded systems and an iPhone application. 
 In 2020, I expanded my professional scope by venturing into Digital Holographic Microscopy (DHM).
 
 Additionally, I have been involved in various side projects that leverage machine learning and deep learning tools, further enhancing my expertise in these areas.
 In the followings I will list some of my projects and experiences.
-
+</div>
 
 
 ## Quick Links

@@ -216,7 +216,7 @@ hr {
   background-color: #f7f7f7;
   width: 100%;
   border: 1px grey solid;
-  border-radius: 3px;
+  border-radius: 8px;
   padding: 3px 10px;
 }
 
@@ -259,17 +259,28 @@ hr {
 .archive,
 .rss,
 .projects,
-.donate {
+.donate
+.posts,
+.notes,
+.journals
+{
   padding-top: 10px;
   padding-bottom: 5px;
   display: inline-block;
+}
+
+.main-site-subheader.menu {
+    display: flex;
+    justify-content: center; /* Adjust this as needed */
+    align-items: center;
+    flex-wrap: wrap; /* If you want the items to wrap on smaller screens */
 }
 
 .menu a {
   font-size: 20px;
   font-weight: 600;
   padding: 3px 10px;
-  border-right: 1px grey solid;
+  border-right: none;
   margin-left: -4px;
 }
 
@@ -277,27 +288,20 @@ hr {
   background-color: #eee;
   color: black;
   text-decoration: none;
-  /* border-radius: 8px; */
+  border-radius: 8px;
 }
 
-.hashtags i {
-  color: #6f1f91;
+.posts i, .notes i, .journals i {
+    color: rgba(46, 155, 189, 0.89); /* Light for icons */
 }
 
-.categories i {
-  color: #3878a0;
+.hashtags i, .categories i,
+.archive i, .donate i {
+    color: rgba(9, 133, 121, 0.84); /* Light for icons */
 }
 
-.archive i {
-  color: #56712d;
-}
-
-.rss i {
-  color: #cfa531;
-}
-
-.donate i {
-  color: #da6064;
+.about i {
+    color: rgba(246, 38, 142, 0.68); /* Light for icons */
 }
 
 /* Notes: Note-heading, Note-subheading, Notes-content, Related Notes */
@@ -1306,7 +1310,13 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 
-.about i, .hashtags i, .categories i,
-.archive i, .donate i {
-    color: #f6268e; /* Light for icons */
+/* Add 2 column layout */
+.two-columns {
+  column-count: 2;
+  column-gap: 40px;
+  -moz-column-count: 2;
+  -moz-column-gap: 40px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 40px;
+  text-align: justify;
 }
