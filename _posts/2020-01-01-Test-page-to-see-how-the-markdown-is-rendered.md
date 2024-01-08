@@ -29,6 +29,29 @@ different focepresentation.
 </p>
 </div>
 
+```html
+<div class="abstract-block">
+  <strong>Abstract:</strong>
+  <p>We adopted an unpaired neural network training
+technique, namely CycleGAN, to generate brightfield
+microscope-like images from hologram reconstructions.
+The motivation for unpaired training in microscope
+applications is that the construction of paired/parallel
+datasets is cumbersome or sometimes not even feasible, for example, lensless or flow-through holographic
+measuring setups. Our results show that the proposed
+method is applicable in these cases and provides comparable results to the paired training. Furthermore, it
+has some favorable properties even though its metric
+scores are lower. </p>
+<p>
+The CycleGAN training results in
+sharper – from this point of view – more realistic object
+reconstructions compared to the baseline paired setting.
+Finally, we show that a lower metric score of the unpaired training does not necessarily imply a worse image generation, but a correct object synthesis yet with a
+different focepresentation.
+</p>
+</div>
+```
+
 <div class="block info-block">
   <strong>Info:</strong> This is a summary of the article's content. It gives readers a quick overview of what to expect in the full post.
 </div>

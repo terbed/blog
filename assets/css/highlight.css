@@ -8,13 +8,13 @@
 
 .highlight,
 .highlight .w {
-  color: #d0d0d0;
-  background-color: #151515;
+  color: #abb2bf; /* Light grey text */
+  background-color: #282c34; /* Dark grey background */
 }
 
 .highlight .err {
-  color: #151515;
-  background-color: #ac4142;
+  color: #282c34;
+  background-color: #e06c75; /* Soft red for errors */
 }
 
 .highlight .c,
@@ -24,38 +24,38 @@
 .highlight .cpf,
 .highlight .c1,
 .highlight .cs {
-  color: #505050;
+  color: #5c6370; /* Soft grey for comments */
 }
 
 .highlight .cp {
-  color: #f4bf75;
+  color: #56b6c2; /* Soft cyan for control keywords */
 }
 
 .highlight .nt {
-  color: #f4bf75;
+  color: #56b6c2; /* Soft cyan for tags and selectors */
 }
 
 .highlight .o,
 .highlight .ow {
-  color: #d0d0d0;
+  color: #abb2bf; /* Light grey for operators */
 }
 
 .highlight .p,
 .highlight .pi {
-  color: #d0d0d0;
+  color: #abb2bf; /* Light grey for punctuation */
 }
 
 .highlight .gi {
-  color: #90a959;
+  color: #98c379; /* Soft green for added lines */
 }
 
 .highlight .gd {
-  color: #ac4142;
+  color: #e06c75; /* Soft red for deleted lines */
 }
 
 .highlight .gh {
-  color: #6a9fb5;
-  background-color: #151515;
+  color: #c678dd; /* Soft purple */
+  background-color: #282c34;
   font-weight: bold;
 }
 
@@ -64,19 +64,19 @@
 .highlight .kp,
 .highlight .kr,
 .highlight .kv {
-  color: #aa759f;
+  color: #c678dd; /* Soft purple for keywords */
 }
 
 .highlight .kc {
-  color: #d28445;
+  color: #d19a66; /* Soft orange for constants */
 }
 
 .highlight .kt {
-  color: #d28445;
+  color: #d19a66; /* Soft orange for data types */
 }
 
 .highlight .kd {
-  color: #d28445;
+  color: #d19a66; /* Soft orange for doctags */
 }
 
 .highlight .s,
@@ -89,35 +89,35 @@
 .highlight .sh,
 .highlight .sx,
 .highlight .s1 {
-  color: #90a959;
+  color: #98c379; /* Soft green for strings */
 }
 
 .highlight .sr {
-  color: #75b5aa;
+  color: #56b6c2; /* Soft cyan for regex */
 }
 
 .highlight .si {
-  color: #8f5536;
+  color: #e6c07b; /* Soft orange for important strings */
 }
 
 .highlight .se {
-  color: #8f5536;
+  color: #e6c07b; /* Soft orange for end of line */
 }
 
 .highlight .nn {
-  color: #f4bf75;
+  color: #e5c07b; /* Soft yellow for namespace */
 }
 
 .highlight .nc {
-  color: #f4bf75;
+  color: #e5c07b; /* Soft yellow for class names */
 }
 
 .highlight .no {
-  color: #f4bf75;
+  color: #d19a66; /* Soft orange for constants */
 }
 
 .highlight .na {
-  color: #6a9fb5;
+  color: #56b6c2; /* Soft cyan for annotations */
 }
 
 .highlight .m,
@@ -128,11 +128,11 @@
 .highlight .il,
 .highlight .mo,
 .highlight .mx {
-  color: #90a959;
+  color: #d19a66; /* Soft orange for numbers */
 }
 
 .highlight .ss {
-  color: #90a959;
+  color: #98c379; /* Soft green for symbol */
 }
 
 /*.note-block {*/
