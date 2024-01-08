@@ -27,6 +27,10 @@
   color: #5c6370; /* Soft grey for comments */
 }
 
+.highlight .nv, .gs{
+  color: #e06c75; /* Soft red for variables */
+}
+
 .highlight .cp {
   color: #56b6c2; /* Soft cyan for control keywords */
 }
@@ -57,6 +61,26 @@
   color: #c678dd; /* Soft purple */
   background-color: #282c34;
   font-weight: bold;
+}
+.highlight .gu {
+  color: #e5c07b; /* Soft yellow for under headers */
+}
+
+/* variable names */
+.highlight .n {
+  color: #abb2bf; /* Soft yellow for variable names */
+}
+
+.highlight .bp {
+  color: #fad6e5; /* booleans */
+}
+
+.highlight .nf {
+  color: #19f4a4; /* Soft cyan for user-defined functions */
+}
+
+.highlight .nb {
+  color: #9393ea; /* Soft cyan for built-in functions */
 }
 
 .highlight .k,
@@ -133,6 +157,30 @@
 
 .highlight .ss {
   color: #98c379; /* Soft green for symbol */
+}
+
+/* Emphasis (italics) in markdown */
+.highlight .em {
+  font-style: italic;
+  color: #c5c8c6; /* Softer color for emphasis */
+}
+
+/* Strong emphasis (bold) in markdown */
+.highlight .st {
+  font-weight: bold;
+  color: #c5c8c6; /* Softer color for strong text, or use a different color if preferred */
+}
+
+/* Strikethrough in markdown */
+.highlight .strikethrough /* Adjust class name based on your syntax highlighter */
+{ /* Common class for strikethrough */
+  text-decoration: line-through;
+  color: #c5c8c6; /* Softer color for strikethrough text */
+}
+
+/* Markdown lists */
+.highlight .li { /* This class name is an example, check your syntax highlighter */
+  color: #c5c8c6; /* Softer color for list items */
 }
 
 /*.note-block {*/

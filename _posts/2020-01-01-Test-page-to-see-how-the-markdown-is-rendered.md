@@ -295,6 +295,51 @@ alert(s);
 ```python
 s = "Python syntax highlighting"
 print s
+
+@jit(nopython=True, nogil=True)
+def generate_dollar_runbars(timestamp, price, amount, threshold, scaling_factor=1.0):
+    n = len(price)
+
+    cum_pos_dollars = 0.0
+    cum_neg_dollars = 0.0
+    bar_open = price[0]
+    bar_high = price[0]
+    bar_low = price[0]
+    bar_volume = 0.0
+    bar_dvolume = 0.0
+
+    prev_tick_direction = 0
+    for i in range(1, n):
+        timestamp_i = timestamp[i]
+        price_i = price[i]
+        amount_i = amount[i]
+        dollars_i = price_i * amount_i
+        tick_direction = np.sign(price[i] - price[i-1])
+
+        if tick_direction == 0:
+            tick_direction = prev_tick_direction
+
+        if tick_direction == 1:
+            cum_pos_dollars += dollars_i
+            prev_tick_direction = 1
+        else:
+            cum_neg_dollars += dollars_i
+            prev_tick_direction = -1
+
+        max_run = max(cum_pos_dollars, cum_neg_dollars)
+
+        bar_high = max(bar_high, price_i)
+        bar_low = min(bar_low, price_i)
+        bar_volume += amount_i
+        bar_dvolume += dollars_i
+
+        if max_run >= (threshold * scaling_factor):
+            bar_close = price_i
+            vwap = bar_dvolume / bar_volume
+            
+            return timestamp_i, bar_open, bar_high, bar_low, bar_close, bar_volume, vwap, i
+
+    return None
 ```
 
 ```
@@ -401,6 +446,9 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 ### Horizontal Rule
 
 Three or more hypens `---`, underscores `___`, or asterisks `***`.
+
+___
+
 
 ### Line Breaks
 
