@@ -144,51 +144,85 @@
 /*  line-height: 1.6; !* Adjust line height for readability *!*/
 /*}*/
 
-.note-block {
-  position: relative; /* To position the icon relative to this block */
-  background-color: #f2f2f2;
-  border-left: 4px solid #009688;
+/* Base block style */
+.block {
+  position: relative;
+  border-radius: 3.5px;
   padding: 15px;
   padding-left: 50px; /* Extra space for the icon */
-  font-size: 0.9em;
   margin: 20px 0;
   line-height: 1.6;
+  border-left: 4px solid transparent; /* This will be overwritten by individual block colors */
 }
 
-.note-block:before {
-  content: "\f06a"; /* Unicode for Font Awesome's exclamation-circle icon */
-  font-family: "Font Awesome 5 Free"; /* Adjust if using a different version */
-  font-weight: 900; /* Necessary for Font Awesome's solid icons */
+/* Icon before the block content */
+.block:before {
   position: absolute;
-  left: 15px; /* Position to match padding of the note block */
-  top: 50%;
-  transform: translateY(-50%); /* Center vertically */
-  font-size: 1.5em; /* Larger size for the icon */
-  color: #009688; /* Color to match the border */
+  left: 15px;
+  top: 15px;
+  font-size: 1.4em;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
 }
+
+/* Information block */
+.info-block {
+  background-color: #e8f4f9; /* Soft pastel blue background */
+  border-color: #619fd2; /* Slightly darker pastel blue for the border */
+}
+
+.info-block:before {
+  content: "\f05a"; /* info-circle icon */
+  color: #31708f; /* A more subdued blue for the icon, providing a gentle contrast */
+}
+
+/* Question block */
+.question-block {
+  background-color: #f4eef8; /* Soft pastel purple background */
+  border-color: #a677d0; /* Slightly darker pastel purple for the border */
+}
+
+.question-block:before {
+  content: "\f059"; /* question-circle icon */
+  color: #6f42c1; /* A more subdued purple for the icon, providing a gentle contrast */
+}
+
+/* Warning block */
+.warning-block {
+  background-color: #fdf0f0; /* Soft pastel red background */
+  border-color: #d3707a; /* Slightly darker pastel red for the border */
+}
+
+.warning-block:before {
+  content: "\f071"; /* exclamation-triangle icon */
+  color: #a94442; /* A more subdued red for the icon, providing a gentle contrast */
+}
+
 
 .abstract-block {
-  background-color: #fff8e1; /* Warm light yellow background */
-  border: 1.5px solid #d1d1d1; /* Light grey border */
-  border-radius: 10px; /* Rounded corners */
+  background-color: #F9F9F9; /* Light grey background for a minimalistic look */
+  border: 1px solid #E0E0E0; /* Lighter border for a softer edge */
+  border-radius: 7px; /* Rounded corners */
   padding: 20px; /* More padding inside the block */
-  margin: 20px 0; /* Vertical spacing */
-  font-size: 0.9em; /* Smaller font size */
+  margin: 20px auto; /* Increased vertical spacing and centered */
+  max-width: 95%; /* Retains the width to stand out more */
+  font-size: .95em; /* Smaller font size for a sleek look */
   line-height: 1.6; /* Spacing between lines */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Softer shadow for a touch of depth */
 }
 
-/* Optional: Style for the abstract title */
+/* Style for the abstract title */
 .abstract-block strong {
-  font-weight: bold;
-  display: block; /* Makes 'Abstract' start on its own line */
+  font-weight: 600; /* Bold but not too heavy */
+  display: block; /* Ensures 'Abstract' starts on its own line */
   margin-bottom: 10px; /* Spacing after the 'Abstract' title */
-  font-size: 1em; /* Slightly larger font size for the title */
+  font-size: 1.05em; /* Slightly larger font size for the title */
+  color: #5C3D2E; /* Keeping the warm color for the title but can be adjusted if needed */
 }
 
 .abstract-block p {
-  margin-bottom: 1em; /* Adds space between paragraphs */
-  color: #333; /* Slightly darker text for contrast against the warm background */
-  font-size: 0.9em; /* Smaller font size */
+  margin-bottom: 1em; /* Space between paragraphs */
+  color: #4F4F4F; /* Modern dark grey for text for better readability */
+  font-size: .95em; /* Maintaining smaller font size */
   line-height: 1.6; /* Spacing between lines */
 }
