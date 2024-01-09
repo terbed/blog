@@ -39,7 +39,7 @@
     margin: 0;
     padding-left: 20px; /* Indent TOC items */
     text-align: left;
-    border-left: 2px solid #9cc4e1; /* Adding a vertical line for the book-style lining */
+    border-left: 2px solid rgba(9, 133, 121, 0.49); /* Adding a vertical line for the book-style lining */
 }
 
 #toc ul ul,

@@ -249,8 +249,11 @@
 
 .abstract-block {
   background-color: #F9F9F9; /* Light grey background for a minimalistic look */
-  border: 1px solid #E0E0E0; /* Lighter border for a softer edge */
-  border-radius: 7px; /* Rounded corners */
+
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-color: #098579;
+  border-radius: 5px; /* Rounded corners */
   padding: 20px; /* More padding inside the block */
   margin: 20px auto; /* Increased vertical spacing and centered */
   max-width: 95%; /* Retains the width to stand out more */
@@ -265,7 +268,7 @@
   display: block; /* Ensures 'Abstract' starts on its own line */
   margin-bottom: 10px; /* Spacing after the 'Abstract' title */
   font-size: 1.05em; /* Slightly larger font size for the title */
-  color: #5C3D2E; /* Keeping the warm color for the title but can be adjusted if needed */
+  color: rgba(9, 133, 121, 0.84); /* Keeping the warm color for the title but can be adjusted if needed */
 }
 
 .abstract-block p {
