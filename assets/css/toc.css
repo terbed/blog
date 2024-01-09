@@ -1,54 +1,63 @@
 #toc,
 .toc,
 .mw-warning {
-    background-color: #F9F9F9;
-    border: 1px solid #AAAAAA;
+    background-color: #f8f8f8; /* Clean white background for a minimalistic look */
+    border: 1px solid #d7dde5; /* Very light border for a flat appearance */
     font-size: 95%;
-    padding: 5px;
+    padding: 15px; /* Slightly more padding for a spacious feel */
+    border-radius: 4px; /* Slightly rounded corners for a subtle touch */
+    box-shadow: none; /* Removing the shadow for a flatter look */
 }
 
 #toc h2,
 .toc h2 {
-    border: medium none;
+    border: none;
     display: inline;
     font-size: 24px;
     font-weight: bold;
     padding: 0;
+    color: #333333; /* Modern dark grey for the title */
+    border-bottom: 1px solid #eaecef; /* Adding a bottom border for the lining effect */
+    padding-bottom: 5px; /* Padding under the title, above the line */
+    margin-bottom: 15px; /* Space below the title and line */
 }
 
 #toc #toctitle,
 .toc #toctitle,
 #toc .toctitle,
 .toc .toctitle {
-    margin: 0 8px 24px 14px;
-    padding-top: 8px;
+    margin: 0 0 15px 0;
+    padding-top: 0;
     line-height: 1.5;
     overflow: hidden;
+    color: #2d3748;
 }
-
 
 #toc ul,
 .toc ul {
-    list-style-image: none;
     list-style-type: none;
-    margin: 0 8px 7px 14px;
-    padding-left: 0;
+    margin: 0;
+    padding-left: 20px; /* Indent TOC items */
     text-align: left;
+    border-left: 2px solid #9cc4e1; /* Adding a vertical line for the book-style lining */
 }
 
 #toc ul ul,
 .toc ul ul {
-    margin: 0 0 0 2em;
+    margin: 0 0 0 1em;
 }
 
 #toc .toctoggle,
 .toc .toctoggle {
     font-size: 94%;
+    color: #2d3748;
 }
 
 #toc ul li {
     list-style-type: none;
-    padding-left: 0;
+    padding-left: 5px; /* Space from the vertical line to the text */
+    color: #2d3748;
+    line-height: 1.6; /* Adjust line height for better readability */
 }
 
 #toc-container {

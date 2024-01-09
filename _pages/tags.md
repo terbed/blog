@@ -8,12 +8,12 @@ content-type: eg
 <style>
 .category-content a {
     text-decoration: none;
-    color: #4183c4;
+    color: #04223f;
 }
 
 .category-content a:hover {
     text-decoration: underline;
-    color: #4183c4;
+    color: #adf508;
 }
 </style>
 

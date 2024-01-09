@@ -13,9 +13,10 @@ content-type: eg
 
 .date-content a:hover {
     text-decoration: underline;
-    color: #4183c4;
+    color: #3bf8b0;
 }
 </style>
+
 
 <main>
     {% assign postsByDay =
