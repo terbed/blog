@@ -2,7 +2,7 @@
 .toc,
 .mw-warning {
     background-color: #f8f8f8; /* Clean white background for a minimalistic look */
-    border: 1px solid #d7dde5; /* Very light border for a flat appearance */
+    /*border: 1px solid #d7dde5;  Very light border for a flat appearance */
     font-size: 95%;
     padding: 15px; /* Slightly more padding for a spacious feel */
     border-radius: 4px; /* Slightly rounded corners for a subtle touch */
@@ -14,9 +14,8 @@
     border: none;
     display: inline;
     font-size: 24px;
-    font-weight: bold;
     padding: 0;
-    color: #333333; /* Modern dark grey for the title */
+    color: rgba(66, 66, 66, 0.84); /* Modern dark grey for the title */
     border-bottom: 1px solid #eaecef; /* Adding a bottom border for the lining effect */
     padding-bottom: 5px; /* Padding under the title, above the line */
     margin-bottom: 15px; /* Space below the title and line */
@@ -40,6 +39,7 @@
     padding-left: 20px; /* Indent TOC items */
     text-align: left;
     border-left: 2px solid rgba(9, 133, 121, 0.49); /* Adding a vertical line for the book-style lining */
+    border-radius: 0;
 }
 
 #toc ul ul,
@@ -62,4 +62,24 @@
 
 #toc-container {
     margin-bottom: 10px;
+}
+
+.floating-toc {
+  position: absolute; /* Allows the TOC to move with scrolling */
+  top: 150px; /* Adjust based on your header's height */
+  left: 0; /* Align to the left side */
+  width: auto; /* Allows the TOC to scale */
+  max-width: 200px; /* Maximum width */
+  margin-left: calc((100% - 800px) / 2 - 220px); /* Adjust the left margin */
+  display: none; /* Initially hidden */
+  background-color: #f9f9f9; /* Optional background */
+  padding: 10px; /* Add some padding */
+  border-radius: 4px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for showing/hiding */
+}
+
+@media screen and (min-width: 1024px) {
+  .floating-toc {
+    display: block; /* Shows the TOC on larger screens */
+  }
 }
