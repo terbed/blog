@@ -8,7 +8,7 @@ comments: true
 ## Philosophy:
 
 <div class="abstract-block">
-  <strong>Abstract:</strong>
+  <strong>Abstract</strong>
   <p>We adopted an unpaired neural network training
 technique, namely CycleGAN, to generate brightfield
 microscope-like images from hologram reconstructions.
@@ -31,7 +31,7 @@ different focepresentation.
 
 ```html
 <div class="abstract-block">
-  <strong>Abstract:</strong>
+  <strong>Abstract</strong>
   <p>We adopted an unpaired neural network training
 technique, namely CycleGAN, to generate brightfield
 microscope-like images from hologram reconstructions.
@@ -53,15 +53,21 @@ different focepresentation.
 ```
 
 <div class="block info-block">
-  <strong>Info:</strong> This is a summary of the article's content. It gives readers a quick overview of what to expect in the full post.
+  <strong>INFO</strong> 
+
+   This is a summary of the article's content. It gives readers a quick overview of what to expect in the full post.
+Our results show that the proposed
+method is applicable in these cases and provides comparable results to the paired training. Furthermore, it
+has some favorable properties even though its metric
+scores are lower.
 </div>
 
 <div class="block question-block">
-  <strong>Question:</strong> This is a summary of the article's content. It gives readers a quick overview of what to expect in the full post.
+  <strong>QUEST</strong> This is a summary of the article's content. It gives readers a quick overview of what to expect in the full post.
 </div>
 
 <div class="block warning-block">
-  <strong>Danger Zone:</strong> This is a summary of the article's content. It gives readers a quick overview of what to expect in the full post.
+  <strong>DANGER</strong> This is a summary of the article's content. It gives readers a quick overview of what to expect in the full post.
 </div>
 
 
