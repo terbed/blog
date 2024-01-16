@@ -5,12 +5,15 @@ permalink: /
 
 ### Collect. Connect. Create.
 
-<mark>Welcome aboard!</mark> 
+<mark>Welcome aboard traveler!</mark>
+This is my digital garden where I collect and share my thoughts, ideas, and learnings. 
+Allegedly, the best way to learn is to express and explain the material in your own words, in your unique way.
+I've always loved to craft and publish articles so I've built this place where I can practice my passion – and hopefully where we can learn together.
 The content of this blog has three main channels:
 [[“There is nothing to writing. All you do is sit down at a typewriter and bleed.” <br><cite>--- Ernest Hemingway </cite>::lmn]]
 
 1. [**Catalogue of Notes:**](/notes)
-   - Quick insights, updates, and thoughts. These are less comprehensive drafts or supplementary material for larger articles. These snippets provide a glimpse into my day-to-day engagements with work and might blossom into full-fledged articles in the future. 
+   - These quick drafts provide a glimpse into my day-to-day engagements with work, which might blossom into full-fledged articles in the future. 
 2. [**Daily Progress Journal:**](/journals)
    - A more simple section for daily public writing about my plans, progress, and thoughts.
 3. [**In-Depth Articles:**](/posts)
@@ -25,15 +28,13 @@ and in our own despair, against our will, comes wisdom to us by the awful grace 
 The fact that this blog has dedicated sections for [notes](/notes), as well as [journal entries](/journals) is meant 
 to encourage daily public writing in line with the [Digital Garden](#digital-gardens-an-overview) philosophy.
 
-The content of the blog is also organized with [tags](/tags) and [categories](/categories). 
-Additionally, you can see a list of all content in the [archive](/archive) or
-articles by date in the [dates](/dates) page.
-Or you can simply use the search bar to find what you're looking for.
+The articles are grouped by [tags](/tags) and into [categories](/categories), or you can see them in chronological order in the [dates](/dates) page.
+You can see a list of all content in the [archive](/archive) page too, or simply use the search bar to find what you're looking for.
 
-Furthermore, this blog is meant to be a **public** space for learning and growth.
+This blog is meant to be a **public** space for learning and growth.
 Your insights and perspectives are invaluable. Engage with the content through:
 - __Comments__: Share your thoughts, experiences, and queries directly on the blog. Let's foster a community of learning and exchange.
-- __Hypothesis Annotations__: For a more interactive and collaborative experience, use the built in [Hypothesis](https://web.hypothes.is/) annotations to highlight text, add notes, or start discussions right within the articles. It's a dynamic way to connect and deepen our collective understanding.
+- __Hypothesis Annotations__: For a more interactive and collaborative experience, use the built in [Hypothesis](https://web.hypothes.is/){:target="_blank"} annotations to highlight text, add notes, or start discussions right within the articles. It's a dynamic way to connect and deepen our collective understanding.
 
 For more examples and information, please visit the following articles:
 
@@ -50,8 +51,7 @@ But seeking validation should neither be the goal of learning in public.
 <br><br>Instead, the goal should be to tap into your network's collective intelligence to create constructive feedback loops.::lmn]]
 
 <mark>What exactly <i>is</i> a digital garden, you might ask?</mark> 
-The defintion of a Digital Garden is not absolute--it is a relatively new term that has gained popularly recently, 
-that describes online spaces that are moreso dedicated to the act of learning and growth, rather than final products.
+A Digital Garden is such an online space that are moreso dedicated to the act of learning and growth, rather than final products.
 
 
 Digital Gardens solve two problems:
@@ -67,8 +67,9 @@ Digital Gardens solve two problems:
 
 The only way to learn in public is to **build** in public.
 
-Linear thinking is a ultimately a myth. Thinking is not only non-linear, it's messy. 
-It involves a lot of back and forth, dead ends, branching, walking back, merging ideas, changing ideas, contradicting ideas. 
+Linear thinking is ultimately a myth. Thinking is not only non-linear, it's messy. The messy wandering where innovation happens.
+It involves a lot of back and forth, dead ends, branching, walking back, merging ideas, changing ideas, contradicting ideas.
+So let's get into it!
 
 ## Credits
 This website is built on the [Enjoyment Work](https://github.com/brennanbrown/enjoyment-work){:target="_blank"} Jekyll theme.
