@@ -34,8 +34,7 @@ Here, in the domain of computer science and artificial intelligence, I gained ex
 <p>
 My first project at SZTAKI involved Remote Photoplethysmography (rPPG), a novel method for measuring pulse rate remotely from color changes in the skin using video recordings. 
 This interesting work, which was also the subject of my master's thesis, entailed the development of real-time software for embedded systems and an iPhone application. 
-In 2020, I expanded my professional scope by venturing into Digital Holographic Microscopy (DHM).
-</p>
+Since 2020, I expanded my professional scope by venturing into Digital Holographic Microscopy (DHM) and I am building an ML system for an in-production system consisting of multiple AI elements.</p>
 
 <p>
 Additionally, I have been involved in various side projects that leverage machine learning and deep learning tools, further enhancing my expertise in these areas.
