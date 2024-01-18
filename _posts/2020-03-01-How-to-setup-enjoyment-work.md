@@ -1,11 +1,11 @@
 ---
-title: How-To Setup Enjoyment work
+title: How-To Setup Enjoyment work jekyll
 tags: jekyll theme
-categories: test
-comments: true
+categories: How-To
+comments: false
 ---
 
-This is going to be a super simple post about how to setup and use this theme for your own website.
+This is going to be a super simple post about how to setup and deploy the base theme on which this site is built on.
 
 ## Usage
 
@@ -116,9 +116,3 @@ $ git push origin master
 If that command succeeds and the rest of the tutorial was done correctly, in a couple of minutes, you should see your changes live on your Netlify website. 🚀
 
 And we’re done! You now have your own Enjoyment work based Personal Website .
-
----
-
-If you’re curious, take a look at [[my personal jekyll seamless based website here::https://www.raghuveer.net]].
-
-This setup tutorial is inspired by [[Maxime Vaillancourt::https://maximevaillancourt.com]]'s Digital Garden Tutorial.

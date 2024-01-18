@@ -1,15 +1,19 @@
 ---
 title: Example Page to View Markdown Rendering
-tags: markdown
+tags: markdown theme
+categories: How-To
 toc: true
-comments: true
+comments: false
 ---
 
-## Philosophy:
+# How to use markdown and css style elements
+
+## Abstract block
+You can use the `abstract-block` class to create a block with a title and a paragraph. This is useful for creating abstracts, summaries, or TL;DRs.
 
 <div class="abstract-block">
-  <strong>Abstract</strong>
-  <p>We adopted an unpaired neural network training
+<strong>TL;DR</strong>
+<p>We adopted an unpaired neural network training
 technique, namely CycleGAN, to generate brightfield
 microscope-like images from hologram reconstructions.
 The motivation for unpaired training in microscope
@@ -29,49 +33,58 @@ different focepresentation.
 </p>
 </div>
 
+This is how you can use it in markdown:
 ```html
 <div class="abstract-block">
-  <strong>Abstract</strong>
-  <p>We adopted an unpaired neural network training
-technique, namely CycleGAN, to generate brightfield
-microscope-like images from hologram reconstructions.
-The motivation for unpaired training in microscope
-applications is that the construction of paired/parallel
-datasets is cumbersome or sometimes not even feasible, for example, lensless or flow-through holographic
-measuring setups. Our results show that the proposed
-method is applicable in these cases and provides comparable results to the paired training. Furthermore, it
-has some favorable properties even though its metric
-scores are lower. </p>
-<p>
-The CycleGAN training results in
-sharper – from this point of view – more realistic object
-reconstructions compared to the baseline paired setting.
-Finally, we show that a lower metric score of the unpaired training does not necessarily imply a worse image generation, but a correct object synthesis yet with a
-different focepresentation.
-</p>
+   <strong>TL;DR</strong>
+   <p>Paragraph 1 ... </p>
+   <p> Paragraph 2 ...</p>
 </div>
 ```
 
+## Highlighted boxes
+
+You can have different types of highlighted boxes. The following classes are available:
 <div class="block info-block">
   <strong>INFO</strong> 
 
    This is a summary of the article's content. It gives readers a quick overview of what to expect in the full post.
-Our results show that the proposed
-method is applicable in these cases and provides comparable results to the paired training. Furthermore, it
-has some favorable properties even though its metric
-scores are lower.
+   Our results show that the proposed
+   method is applicable in these cases and provides comparable results to the paired training. Furthermore, it
+   has some favorable properties even though its metric
+   scores are lower.
 </div>
+
+```html
+<div class="block info-block">
+  <strong>INFO</strong>
+   ...
+</div>
+```
 
 <div class="block question-block">
   <strong>QUEST</strong> This is a summary of the article's content. It gives readers a quick overview of what to expect in the full post.
 </div>
 
+```html
+<div class="block question-block">
+  <strong>QUEST</strong>
+   ...
+</div>
+```
+
 <div class="block warning-block">
   <strong>DANGER</strong> This is a summary of the article's content. It gives readers a quick overview of what to expect in the full post.
 </div>
 
+```html
+<div class="block warning-block">
+  <strong>DANGER</strong>
+   ...
+</div>
+```
 
-To this end, Markdown’s syntax is comprised entirely of punctuation characters, which punctuation characters have been carefully chosen so as to look like what they mean. E.g., asterisks around a word actually look like _emphasis_. Markdown lists look like, well, lists. Even blockquotes look like quoted passages of text, assuming you’ve ever used email. This is intended as a quick reference and showcase.
+
 
 **Table of Contents**
 
@@ -188,6 +201,34 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 {:#links}
 
+### Markdown Footnotes
+
+    The quick brown fox[^1] jumped over the lazy dog[^2].
+
+    [^1]: Foxes are red
+    [^2]: Dogs are usually not red
+
+Result:
+The quick brown fox[^1] jumped over the lazy dog[^2].
+
+[^1]: Foxes are red
+[^2]: Dogs are usually not red
+
+### Task Lists
+
+    - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+    - [x] list syntax required (any unordered or ordered list supported)
+    - [x] this is a complete item
+    - [ ] this is an incomplete item
+
+Result:
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+
 ### Links
 
 ```markdown
@@ -293,21 +334,14 @@ But let's throw in a <b>tag</b>.
 ```
 </pre>
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
 ```python
 s = "Python syntax highlighting"
 print s
 
 @jit(nopython=True, nogil=True)
-def generate_dollar_runbars(timestamp, price, amount, threshold, scaling_factor=1.0):
+def generate_bars(timestamp, price, amount):
     n = len(price)
 
-    cum_pos_dollars = 0.0
-    cum_neg_dollars = 0.0
     bar_open = price[0]
     bar_high = price[0]
     bar_low = price[0]
@@ -320,30 +354,16 @@ def generate_dollar_runbars(timestamp, price, amount, threshold, scaling_factor=
         price_i = price[i]
         amount_i = amount[i]
         dollars_i = price_i * amount_i
-        tick_direction = np.sign(price[i] - price[i-1])
-
-        if tick_direction == 0:
-            tick_direction = prev_tick_direction
-
-        if tick_direction == 1:
-            cum_pos_dollars += dollars_i
-            prev_tick_direction = 1
-        else:
-            cum_neg_dollars += dollars_i
-            prev_tick_direction = -1
-
-        max_run = max(cum_pos_dollars, cum_neg_dollars)
 
         bar_high = max(bar_high, price_i)
         bar_low = min(bar_low, price_i)
         bar_volume += amount_i
-        bar_dvolume += dollars_i
 
-        if max_run >= (threshold * scaling_factor):
+        if max_run >= threshold:
             bar_close = price_i
             vwap = bar_dvolume / bar_volume
             
-            return timestamp_i, bar_open, bar_high, bar_low, bar_close, bar_volume, vwap, i
+            return timestamp_i, bar_open, bar_high, bar_low, bar_close, bar_volume, vwap
 
     return None
 ```
@@ -457,10 +477,6 @@ ___
 
 
 ### Line Breaks
-
-My basic recommendation for learning how line breaks work is to experiment and discover -- hit <Enter> once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend.
-
-Here are some things to try out:
 
 ```
 Here's a line for us to start with.

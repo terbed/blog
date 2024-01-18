@@ -258,7 +258,7 @@
   margin: 20px auto; /* Increased vertical spacing and centered */
   max-width: 95%; /* Retains the width to stand out more */
   font-size: .95em; /* Smaller font size for a sleek look */
-  line-height: 1.6; /* Spacing between lines */
+  line-height: 1.5; /* Spacing between lines */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Softer shadow for a touch of depth */
 }
 
@@ -275,5 +275,5 @@
   margin-bottom: 1em; /* Space between paragraphs */
   color: #4F4F4F; /* Modern dark grey for text for better readability */
   font-size: .95em; /* Maintaining smaller font size */
-  line-height: 1.6; /* Spacing between lines */
+  line-height: 1.5; /* Spacing between lines */
 }
