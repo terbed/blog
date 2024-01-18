@@ -28,13 +28,13 @@ and in our own despair, against our will, comes wisdom to us by the awful grace 
 The fact that this blog has dedicated sections for [notes](/notes), as well as [journal entries](/journals) is meant 
 to encourage daily public writing in line with the [Digital Garden](#digital-gardens-an-overview) philosophy.
 
-The articles are grouped by [tags](/tags) and into [categories](/categories), or you can see them in chronological order in the [dates](/dates) page.
-You can see a list of all content in the [archive](/archive) page too, or simply use the search bar to find what you're looking for.
+The articles are grouped by [tags](/tags) and into [categories](/categories), you can also see them in chronological order on the [dates](/dates) page.
+All of the content is accessible (journals, notes, articles) on the [archive](/archive) page, or you can use the search bar to find what you're looking for.
 
 This blog is meant to be a **public** space for learning and growth.
 Your insights and perspectives are invaluable. Engage with the content through:
 - __Comments__: Share your thoughts, experiences, and queries directly on the blog. Let's foster a community of learning and exchange.
-- __Hypothesis Annotations__: For a more interactive and collaborative experience, use the built in [Hypothesis](https://web.hypothes.is/){:target="_blank"} annotations to highlight text, add notes, or start discussions right within the articles. It's a dynamic way to connect and deepen our collective understanding.
+- __Hypothesis Annotations__: For a more interactive and collaborative experience, use the built-in [Hypothesis](https://web.hypothes.is/){:target="_blank"} annotations to highlight text, add notes, or start discussions right within the articles. It's a dynamic way to connect and deepen our collective understanding.
 
 For more examples and information, please visit the following articles:
 
