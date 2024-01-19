@@ -36,13 +36,6 @@ Your insights and perspectives are invaluable. Engage with the content through:
 - __Comments__: Share your thoughts, experiences, and queries directly on the blog. Let's foster a community of learning and exchange.
 - __Hypothesis Annotations__: For a more interactive and collaborative experience, use the built-in [Hypothesis](https://web.hypothes.is/){:target="_blank"} annotations to highlight text, add notes, or start discussions right within the articles. It's a dynamic way to connect and deepen our collective understanding.
 
-For more examples and information, please visit the following articles:
-
-1. **[[Exploring the features of Enjoyment work]]**
-2. **[[Example Page to View Markdown Rendering]]**
-3. **[[How-To Setup Enjoyment work]]**
-
-
 
 ## Digital Gardens: An Overview
 
