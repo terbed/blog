@@ -118,17 +118,15 @@
                 document.getElementById("results-container").style.display = "none";
             }
         }
-        document.addEventListener('DOMContentLoaded', function() {
-            var sjs = SimpleJekyllSearch({
-                searchInput: document.getElementById('search-input'),
-                resultsContainer: document.getElementById('results-container'),
-                json: 'https://terbe.dev/search.json',
-                searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="{{ site.url }}{url}" color: #555555;"><p><strong>></strong> {title}</p></a></li>',
-                noResultsText: 'No results found. Try another search.',
-                fuzzy: true,
-                limit: 5
-            })
-        });
+        var sjs = SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '/search.json',
+            searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="{{ site.url }}{url}" color: #555555;"><p><strong>></strong> {title}</p></a></li>',
+            noResultsText: 'No results found. Try another search.',
+            fuzzy: true,
+            limit: 5
+        })
     </script>
 
 
