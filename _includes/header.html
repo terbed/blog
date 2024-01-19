@@ -92,43 +92,70 @@
 <!--            </label>-->
 <!--        </div>-->
     </div>
-    <div class="searchbar search-container sans">
-        <i aria-hidden="true" class="fa fa-search"></i>
-        <input autocomplete="off" id="search-input" oninput="changeResultContainerDisp(this.value)" placeholder="Search Content..." type="text"/>
-        <label for="search-input"></label>
-        <ul id="results-container"></ul>
-    </div>
-    <script src="/assets/js/simple-jekyll-search.min.js"></script>
 
 
-    <script>
-        function changeResultContainerDisp(val) {
-            if (val) {
-                document.getElementById("results-container").style.display = "block";
-                document.getElementById("search-input").addEventListener('blur', function () {
-                    document.addEventListener('click', function (event) {
-                        var isClickInside = document.getElementById("results-container").contains(event
-                            .target);
-                        if (!isClickInside) {
-                            document.getElementById("results-container").style.display = "none";
-                        }
-                    })
-                })
-            } else {
-                document.getElementById("results-container").style.display = "none";
+<div class="searchbar search-container sans">
+    <i aria-hidden="true" class="fa fa-search"></i>
+    <input autocomplete="off" id="search-input" placeholder="Search Content..." type="text"/>
+    <label for="search-input"></label>
+    <ul id="results-container" style="display: none;"></ul>
+</div>
+
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var resultsContainer = document.getElementById('results-container');
+    var searchInput = document.getElementById('search-input');
+
+    fetch('/search.json')
+        .then(response => response.json())
+        .then(data => {
+            var idx = lunr(function () {
+                this.ref('url');
+                this.field('title', { boost: 10 });
+                this.field('content');
+                data.forEach(function (doc) {
+                    this.add(doc);
+                }, this)
+            });
+
+            function updateSearchResults(query) {
+                var results = idx.search(query);
+                resultsContainer.innerHTML = ''; // Clear previous results
+
+                if (results.length) {
+                    results.forEach(function(result) {
+                        var item = data.find(doc => doc.url === result.ref);
+                        var listItem = document.createElement('li');
+                        listItem.className = 'search_res';
+                        listItem.style.listStyle = 'none';
+                        listItem.innerHTML = '<a href="' + item.url + '" style="color: #555555;"><p><strong>' + item.title + '</strong></p></a>';
+                        resultsContainer.appendChild(listItem);
+                    });
+                } else {
+                    // Display "No results found" message
+                    var noResultsItem = document.createElement('li');
+                    noResultsItem.className = 'search_res';
+                    noResultsItem.style.listStyle = 'none';
+                    noResultsItem.innerHTML = '<p><strong>Searching...</strong></p>';
+                    resultsContainer.appendChild(noResultsItem);
+                }
+                resultsContainer.style.display = 'block';
             }
-        }
-        var sjs = SimpleJekyllSearch({
-            searchInput: document.getElementById('search-input'),
-            resultsContainer: document.getElementById('results-container'),
-            json: '/search.json',
-            searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="{{ site.url }}{url}" color: #555555;"><p><strong>></strong> {title}</p></a></li>',
-            noResultsText: 'No results found. Try another search.',
-            fuzzy: true,
-            limit: 5
-        })
-    </script>
 
+            searchInput.addEventListener('input', function() {
+                updateSearchResults(this.value);
+            });
+
+            document.addEventListener('click', function (event) {
+                if (!searchInput.contains(event.target) && !resultsContainer.contains(event.target)) {
+                    resultsContainer.style.display = 'none';
+                }
+            });
+        });
+});
+</script>
 
     {%- if page.permalink != "/" -%}
         {% include breadcrumbs.html %}
