@@ -11,11 +11,11 @@ footer_description:
   'The phrase "digital garden" is a metaphor for thinking, writing and creating that focuses less on the
   outcome and more on the process, care, and craft it takes to get there.
   Like gardeners planting seeds and tending the soil, we toil and turn the earth; though blooms may come in their own time, they cannot be rushed or forced.'
-notes_url: "https://terbed.netlify.app/notes/"
+notes_url: "https://terbe.dev/notes/"
 profile_pic: "https://avatars.githubusercontent.com/u/13771341?s=400&v=4"
 favicon: /assets/img/favicon.png
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://terbed.netlify.app/" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://terbe.dev" # the base hostname & protocol for your site, e.g. https://example.com
 theme_color: white
 encoding: utf-8
 

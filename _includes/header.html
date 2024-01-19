@@ -94,11 +94,13 @@
     </div>
     <div class="searchbar search-container sans">
         <i aria-hidden="true" class="fa fa-search"></i>
-        <input autocomplete="off" id="search-input" oninput="changeResultContainerDisp(this.value)" placeholder="Search Enjoyment Work..." type="text"/>
+        <input autocomplete="off" id="search-input" oninput="changeResultContainerDisp(this.value)" placeholder="Search Content..." type="text"/>
         <label for="search-input"></label>
         <ul id="results-container"></ul>
     </div>
     <script src="/assets/js/simple-jekyll-search.min.js"></script>
+
+
     <script>
         function changeResultContainerDisp(val) {
             if (val) {
@@ -116,16 +118,20 @@
                 document.getElementById("results-container").style.display = "none";
             }
         }
-        var sjs = SimpleJekyllSearch({
-            searchInput: document.getElementById('search-input'),
-            resultsContainer: document.getElementById('results-container'),
-            json: '/search.json',
-            searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="{{ site.url }}{url}" color: #555555;"><p><strong>></strong> {title}</p></a></li>',
-            noResultsText: 'No results found. Try another search.',
-            fuzzy: false,
-            limit: 5
-        })
+        document.addEventListener('DOMContentLoaded', function() {
+            var sjs = SimpleJekyllSearch({
+                searchInput: document.getElementById('search-input'),
+                resultsContainer: document.getElementById('results-container'),
+                json: '/search.json',
+                searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="{{ site.url }}{url}" color: #555555;"><p><strong>></strong> {title}</p></a></li>',
+                noResultsText: 'No results found. Try another search.',
+                fuzzy: true,
+                limit: 5
+            })
+        });
     </script>
+
+
     {%- if page.permalink != "/" -%}
         {% include breadcrumbs.html %}
     {%- endif -%}
