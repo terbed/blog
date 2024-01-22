@@ -44,7 +44,7 @@ But seeking validation should neither be the goal of learning in public.
 <br><br>Instead, the goal should be to tap into your network's collective intelligence to create constructive feedback loops.::lmn]]
 
 <mark>What exactly <i>is</i> a digital garden, you might ask?</mark> 
-A Digital Garden is such an online space that are moreso dedicated to the act of learning and growth, rather than final products.
+A Digital Garden is such an online space that is moreso dedicated to the act of learning and growth, rather than final products.
 
 
 Digital Gardens solve two problems:
@@ -62,7 +62,7 @@ The only way to learn in public is to **build** in public.
 
 Linear thinking is ultimately a myth. Thinking is not only non-linear, it's messy. The messy wandering where innovation happens.
 It involves a lot of back and forth, dead ends, branching, walking back, merging ideas, changing ideas, contradicting ideas.
-So let's get into it!
+So let's get into it and make some mess and then clean it up!
 
 ## Credits
 This website is built on the [Enjoyment Work](https://github.com/brennanbrown/enjoyment-work){:target="_blank"} Jekyll theme.
