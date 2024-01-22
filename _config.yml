@@ -13,7 +13,7 @@ footer_description:
   Like gardeners planting seeds and tending the soil, we toil and turn the earth; though blooms may come in their own time, they cannot be rushed or forced.'
 notes_url: "https://terbe.dev/notes/"
 profile_pic: "https://avatars.githubusercontent.com/u/13771341?s=400&v=4"
-favicon: /assets/img/blog_icon.png
+favicon: /assets/img/favicon.png
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://terbe.dev" # the base hostname & protocol for your site, e.g. https://example.com
 theme_color: white
