@@ -13,7 +13,7 @@ The content of this blog has three main channels:
 [[“There is nothing to writing. All you do is sit down at a typewriter and bleed.” <br><cite>--- Ernest Hemingway </cite>::lmn]]
 
 1. [**Catalogue of Notes:**](/notes)
-   - These are brief drafts of my day-to-day engagements with work, which might blossom into full-fledged articles in the future. This is also the space where the supplementary materials (transclusions) for the in-depth articles are collected.
+   - These are brief drafts of my day-to-day engagements with work. This is also the space where the supplementary materials (transclusions) for the in-depth articles are collected.
 2. [**Daily Progress Journal:**](/journals)
    - A more simple and personal section for daily public writing about my plans, progress, achievements and thoughts.
 3. [**In-Depth Articles:**](/posts)
