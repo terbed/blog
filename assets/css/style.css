@@ -1320,3 +1320,12 @@ input:checked + .slider:before {
   -webkit-column-gap: 40px;
   text-align: justify;
 }
+
+/* Single column layout for narrow screens */
+@media screen and (max-width: 1512px) {
+  .two-columns {
+    column-count: 1;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+  }
+}
