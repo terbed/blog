@@ -1,0 +1,11 @@
+---
+title: "February 1th, 2024 – New paper published"
+author: Dániel Terbe
+---
+Today our new paper titled "Hologram Noise Model for Data Augmentation and Deep Learning" has been published in MDPI Sensors. 
+
+The motivation to devise the proposed method arose from the problem that our in-production DHM[[Digital Holographic Microscope::rsn]] system produced often noisier holograms compared to those on which the neural network was trained. The quality of the inputs for the deep learning model was degraded, which in turn resulted in a lower accuracy of the classification task. 
+
+To mitigate this issue, we have developed a colored noise model[[Colored noise means that it is correlated unlike random Gaussian/white noise.::lsn]] that can be used to augment holograms with noise patterns similar to the ones that are present in real-world data, thus improving the robustness of the model.
+
+The paper can be accessed [here](https://doi.org/10.3390/s24030948).
