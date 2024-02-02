@@ -91,7 +91,7 @@ __Computational Neuroscience Workgroup, Budapest, Hungary__
 
 ## Publications
 
-- Terbe, D.; Orzó, L.; Bicsák, B.; Zarándy, Á. Hologram Noise Model for Data Augmentation and Deep Learning. Sensors 2024, 24, 948. [Read Here](https://doi.org/10.3390/s24030948)
+- Terbe, D.; Orzó, L.; Bicsák, B.; Zarándy, Á. **Hologram Noise Model for Data Augmentation and Deep Learning.** Sensors 2024, 24, 948. [Read Here](https://doi.org/10.3390/s24030948)
 - Terbe, D.; Orzó, L.; Zarándy, Á. **"Classification of Holograms with 3D-CNN."** Sensors 2022, 22, 8366. [Read here](https://doi.org/10.3390/s22218366)
 - Terbe, D; László, O.; Zarándy, Á. **"Deep-learning-based bright-field image generation from a single hologram using an unpaired dataset."** Optics Letters 46.22 (2021): 5567-5570. [Read here](https://eprints.sztaki.hu/10150/1/Terbe_5567_32478142_ny.pdf)
 - Nagy, Á., Földesy, P., Jánoki, I., Terbe, D., Siket, M., Szabó, M., ... & Zarándy, Á. **"Continuous camera-based premature-infant monitoring algorithms for NICU."** Applied Sciences, 11(16), 7215. [Read here](https://www.mdpi.com/2076-3417/11/16/7215)
