@@ -368,6 +368,8 @@ def generate_bars(timestamp, price, amount):
     return None
 ```
 
+<script src="https://gist.github.com/terbed/4ab92f63bc93838f22231c0455b94fbc.js"></script>
+
 ```
 No language indicated, so no syntax highlighting.
 But let's throw in a <b>tag</b>.

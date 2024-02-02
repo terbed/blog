@@ -1233,82 +1233,82 @@ figure img {
   max-height: 350px;
 }
 
-.theme-switch-container {
-    display: inline-block;
-    margin-left: 20px;
-    vertical-align: middle;
-}
+/*.theme-switch-container {*/
+/*    display: inline-block;*/
+/*    margin-left: 20px;*/
+/*    vertical-align: middle;*/
+/*}*/
 
-/* The switch styling */
-.theme-switch {
-    display: inline-block;
-    position: relative;
-    width: 60px;
-    height: 34px;
-}
+/*!* The switch styling *!*/
+/*.theme-switch {*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    width: 60px;*/
+/*    height: 34px;*/
+/*}*/
 
-/* The hidden checkbox input */
-.theme-switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
+/*!* The hidden checkbox input *!*/
+/*.theme-switch input {*/
+/*    opacity: 0;*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*}*/
 
-/* The slider (the background of the switch) */
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #000; /* Black by default */
-    transition: .4s;
-    border-radius: 34px;
-}
+/*!* The slider (the background of the switch) *!*/
+/*.slider {*/
+/*    position: absolute;*/
+/*    cursor: pointer;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    background-color: #000; !* Black by default *!*/
+/*    transition: .4s;*/
+/*    border-radius: 34px;*/
+/*}*/
 
-/* The knob of the switch */
-.slider:before {
-    position: absolute;
-    content: '\f186'; /* Unicode for moon from Font Awesome */
-    font-family: "Font Awesome 5 Free"; /* Ensure Font Awesome is loaded */
-    font-weight: 900;
-    text-align: center;
-    line-height: 34px; /* Adjust as necessary for vertical centering */
-    height: 26px;
-    width: 26px;
-    left: 4px; /* Adjust as necessary for horizontal centering */
-    bottom: 4px; /* Adjust as necessary for vertical centering */
-    background-color: white; /* White knob */
-    color: black; /* Black icon */
-    transition: .4s;
-    border-radius: 50%;
-    font-size: 18px; /* Adjust font size as needed */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/*!* The knob of the switch *!*/
+/*.slider:before {*/
+/*    position: absolute;*/
+/*    content: '\f186'; !* Unicode for moon from Font Awesome *!*/
+/*    font-family: "Font Awesome 5 Free"; !* Ensure Font Awesome is loaded *!*/
+/*    font-weight: 900;*/
+/*    text-align: center;*/
+/*    line-height: 34px; !* Adjust as necessary for vertical centering *!*/
+/*    height: 26px;*/
+/*    width: 26px;*/
+/*    left: 4px; !* Adjust as necessary for horizontal centering *!*/
+/*    bottom: 4px; !* Adjust as necessary for vertical centering *!*/
+/*    background-color: white; !* White knob *!*/
+/*    color: black; !* Black icon *!*/
+/*    transition: .4s;*/
+/*    border-radius: 50%;*/
+/*    font-size: 18px; !* Adjust font size as needed *!*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
 
-/* The switch checked state */
-input:checked + .slider {
-    background-color: #eeeeee; /* Light grey background */
-}
+/*!* The switch checked state *!*/
+/*input:checked + .slider {*/
+/*    background-color: #eeeeee; !* Light grey background *!*/
+/*}*/
 
-input:checked + .slider:before {
-    transform: translateX(26px); /* Slide to the right */
-    content: '\f185'; /* Unicode for sun from Font Awesome */
-    background-color: black; /* Black knob */
-    color: white; /* White icon */
-}
+/*input:checked + .slider:before {*/
+/*    transform: translateX(26px); !* Slide to the right *!*/
+/*    content: '\f185'; !* Unicode for sun from Font Awesome *!*/
+/*    background-color: black; !* Black knob *!*/
+/*    color: white; !* White icon *!*/
+/*}*/
 
-/* Rounded sliders */
-.slider.round {
-    border-radius: 34px;
-}
+/*!* Rounded sliders *!*/
+/*.slider.round {*/
+/*    border-radius: 34px;*/
+/*}*/
 
-.slider.round:before {
-    border-radius: 50%;
-}
+/*.slider.round:before {*/
+/*    border-radius: 50%;*/
+/*}*/
 
 /* Add 2 column layout */
 .two-columns {

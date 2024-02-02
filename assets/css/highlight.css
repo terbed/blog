@@ -8,6 +8,9 @@
 
 .highlight,
 .highlight .w {
+  border-radius: 8px; /* Adjust the radius to your liking */
+  border-color: rgb(140, 140, 140); /* Dark grey border */
+  border-width: 2px;
   color: #abb2bf; /* Light grey text */
   background-color: #282c34; /* Dark grey background */
 }
