@@ -80,7 +80,7 @@ def cusum_filter(price: np.array, threshold: np.array):
 </div>
 
 The following figure shows the CUSUM filter applied on dollar bar close prices along with volatility calculated with the exponentially weighted moving average (EMA) of the absolute 60 point lagged returns with an EMA span of 60 points. On the second axe, we can see the used threshold for the filter (0.1% return) along with the S values. Every time the S value exceeds the threshold, we flag an event.
-<iframe src="/assets/figs/cusum/cusum.html" width="100%" height="800" frameborder="0"></iframe>
+<iframe src="/assets/figs/cusum/cusum.html" width="100%" height="750" frameborder="0"></iframe>
 _Figure 1: CUSUM filter applied on dollar bar close prices._
 
 We can see that in case of sideways movements the method filters out the noise effectively. CUSUM filter (aside from ML applications) can be successfully employed to eliminate multiple Bollinger Band crossing signals.
