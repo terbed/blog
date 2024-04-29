@@ -10,7 +10,7 @@ The CUSUM filter was originally used as a quality-control method, designed to **
 
 We define the cumulative sums the following way:
 
-$$ S_t = \max\left\{0, S_{t-1} + y_t - \mathbb{E}_{t-1}[y_t] \right\} $$
+$$ S_t = \max\left\{0, S_{t-1} + y_t - \mathbb{E}_{t-1}[y_t] \right\} \tag{1}$$
 
 where $$y_t$$ is the IID observation at time $$t$$ arising from a locally stationary process, and $$\mathbb{E}_{t-1}[y_t]$$ is the expected value of $$y_t$$ at time $$t-1$$.
 
@@ -18,11 +18,12 @@ This procedure would recommend an event any time $$S_t$$ exceeds a certain thres
 
 The concept of run-ups can be extended to run-downs, this way, we can detect significant events in the opposite direction as well.
 
-$$ S_t^+ = \max\left\{0, S_{t-1}^+ + y_t - \mathbb{E}_{t-1}[y_t] \right\} $$
+$$ S_t^+ = \max\left\{0, S_{t-1}^+ + y_t - \mathbb{E}_{t-1}[y_t] \right\} \tag{2.1}$$
 
-$$ S_t^- = \min\left\{0, S_{t-1}^- + y_t - \mathbb{E}_{t-1}[y_t] \right\} $$
+$$ S_t^- = \min\left\{0, S_{t-1}^- + y_t - \mathbb{E}_{t-1}[y_t] \right\} \tag{2.2}$$
 
-$$ S_t = \max\left\{S_t^+, -S_t^-\right\} $$
+
+$$ S_t = \max\left\{S_t^+, -S_t^-\right\} \tag{2.3}$$
 
 <div class="block question-block">
   <strong>QUEST 1:</strong> Why not simply use $$ S_t = S_{t-1} + y_t - \mathbb{E}_{t-1}[y_t] $$ and inspect whether $$|S_t| > h $$ ?
