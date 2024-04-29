@@ -88,7 +88,11 @@ We can see that in case of sideways movements the method filters out the noise e
 
 ## Answers
 ### QUESTION 1
-It is more sensitive to handle to too sides separately. In case of a simple cumulative sum, if it goes negative approaching the bottom threshold and then turns in positive direction, first it has to reach 0 and then exceed the threshold. Whit separate positive and negative sums, at direction change we start right from 0.
+It is more sensitive to handle to too sides separately. In case of a simple cumulative sum, if it goes negative approaching the bottom threshold and then turns in positive direction, first it has to reach 0 and then exceed the threshold. With separate positive and negative sums, at direction change we start right from 0.
+
+### QUESTION 4
+If we were using raw price returns then with the sum we would compute the rebalanced cumulative return, while with log returns we compute the compounding cumulative return (the log return is additive, while the raw return is multiplicative). In general, the log return is more stable and easier to work with. If this is not clear, I recommend you to read the following outstanding blog post in this topic: [Returns and Log returns](https://gregorygundersen.com/blog/2022/02/06/log-returns/){:target="_blank"}.
 
 ### References
 - Advances in Financial Machine Learning by Marcos Lopez de Prado
+- [https://gregorygundersen.com/blog/2022/02/06/log-returns/](https://gregorygundersen.com/blog/2022/02/06/log-returns/){:target="_blank"}
