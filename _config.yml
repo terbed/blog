@@ -35,7 +35,6 @@ plugins:
   - jekyll-archives
   - jekyll-minifier
   - jekyll-toc
-  - jekyll-katex
 
 markdown: kramdown
 
