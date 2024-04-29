@@ -3,7 +3,7 @@ title: "t3rb3d's blog"
 tagline: " — a Digital Garden 🌱"
 name: "Dániel Terbe"
 author_bio:
-  "Hey there! 👋 I'm Daniel, a Budapest-based researcher and developer delving into the AI and Machine Learning landscapes, recently venturing into the world of financial trading.   
+  "Hey there! 👋 I'm Daniel, a Budapest-based researcher and developer in the field of AI and Machine Learning, recently venturing into the world of financial trading.   
    Dive into my blog posts where we unravel the intricacies of different ML methods.
    Eager to hear your thoughts – join the conversation in the comments and let's build a thriving community!"
 description: "A Digital Garden: Capturing my daily thoughts and progress, as well as curated ideas, reviews and articles."
@@ -35,15 +35,24 @@ plugins:
   - jekyll-archives
   - jekyll-minifier
   - jekyll-toc
+  - jekyll-katex
 
 markdown: kramdown
 
 kramdown:
   input: GFM
   hard_wrap: false
-  math_engine: mathjax
+#  math_engine: mathjax
+  math_engine: katex
   smart_quotes: ["apos", "apos", "quot", "quot"]
   syntax_highlighter: rouge
+
+katex:
+  js_path: "assets"  # Path used to search for katex.min.js
+  rendering_options:
+    # Default KaTeX rendering options. See https://github.com/Khan/KaTeX#rendering-options
+    throw_error: false      # throwOnError - set to false if you want rendering to output error as text rather than a build error
+    error_color: "#cc0000"  # errorColor
 
 sass:
   style: compressed

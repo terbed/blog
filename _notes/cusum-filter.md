@@ -16,7 +16,7 @@ where $$y_t$$ is the IID observation at time $$t$$ arising from a locally statio
 
 This procedure would recommend an event any time $$S_t$$ exceeds a certain threshold $$h$$. This is designed to detect upside divergences as $$S_t$$ is zero floored. Every time $$S_t$$ exceeds $$h$$, we can flag an event and reset $$S_t$$ to zero.
 
-The concept of run-ups can be extended to run-downs,his way, we can detect significant events in the opposite direction as well.
+The concept of run-ups can be extended to run-downs, this way, we can detect significant events in the opposite direction as well.
 
 $$ S_t^+ = \max\left\{0, S_{t-1}^+ + y_t - \mathbb{E}_{t-1}[y_t] \right\} $$
 
@@ -32,7 +32,7 @@ $$ S_t = \max\left\{S_t^+, -S_t^-\right\} $$
 </div>
 
 Implementing and playing with this method makes it much easier to understand and permits a deeper understanding of its mechanics.
-So, let's implement it with the following expected value term definition: $$ \mathbb{E}_{t-1}[y_t] = y_{t-1} $$. This means that the expected value of $$y_t$$ at time $$t-1$$ equals to the latest observation($$y_{t-1}$$). This results in the cumulative sum of returns: $$ S_t =S_{t-1} + y_t - y_{t-1} $$
+So, let's implement it with the following expected value term definition: $$ \mathbb{E}_{t-1}[y_t] = y_{t-1} $$. This means that the expected value of $$y_t$$ at time $$t-1$$ equals to the latest observation($$y_{t-1}$$). This results in the cumulative sum of returns (price change): $$ S_t =S_{t-1} + y_t - y_{t-1} = S_{t-1} + r_t $$
 
 <div class="block question-block">
   <strong>QUEST 3:</strong> Why is it important to use the previous observation as the expected value? What would happen if we would use a rolling ema to estimate the expected value?
