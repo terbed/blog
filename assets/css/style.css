@@ -48,6 +48,48 @@ h6 {
   margin-top: 20px;
 }
 
+h1 {
+  color: #555555;  /* Change to desired color or remove to keep the same */
+  font-weight: 600;  /* Keep or adjust if necessary */
+  margin-top: 20px;  /* Keep or adjust if necessary */
+
+  border-top: 1px solid #9f9f9f;  /* Top border line */
+  border-bottom: 1px solid #9f9f9f;  /* Bottom border line */
+  padding: 10px 0;  /* Padding between the header text and lines */
+}
+h2 {
+  color: #555555;  /* Change to desired color or remove to keep the same */
+  font-weight: 600;  /* Keep or adjust if necessary */
+  margin-top: 20px;  /* Keep or adjust if necessary */
+
+  border-bottom: 1px solid #9f9f9f;  /* Bottom border line */
+  padding: 10px 0;  /* Padding between the header text and lines */
+}
+h3 {
+  color: #555555;  /* Change to desired color or remove to keep the same */
+  font-weight: 600;  /* Keep or adjust if necessary */
+  margin-top: 20px;  /* Keep or adjust if necessary */
+  font-size: 1.6em;
+}
+h4 {
+  color: #555555;  /* Change to desired color or remove to keep the same */
+  font-weight: 600;  /* Keep or adjust if necessary */
+  margin-top: 20px;  /* Keep or adjust if necessary */
+  font-size: 1.4em;
+}
+h5 {
+  color: #555555;  /* Change to desired color or remove to keep the same */
+  font-weight: 600;  /* Keep or adjust if necessary */
+  margin-top: 20px;  /* Keep or adjust if necessary */
+  font-size: 1.2em;
+}
+h6 {
+  color: #555555;  /* Change to desired color or remove to keep the same */
+  font-weight: 600;  /* Keep or adjust if necessary */
+  margin-top: 20px;  /* Keep or adjust if necessary */
+  font-size: 1.0em;
+}
+
 a,
 p,
 ul,
@@ -1160,7 +1202,7 @@ label.srs-toggle {
 }
 
 figcaption {
-  text-align: center;
+  text-align: left;
   padding-bottom: 20px;
 }
 

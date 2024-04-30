@@ -280,3 +280,18 @@
   font-size: .95em; /* Maintaining smaller font size */
   line-height: 1.5; /* Spacing between lines */
 }
+
+figure {
+  border-top: 1px solid #c2c2c2;  /* Top border line */
+  border-bottom: 1px solid #c2c2c2;  /* Bottom border line */
+  padding: 10px 0;  /* Padding between content and lines */
+  margin: 20px 0;  /* Spacing around the figure */
+}
+
+figcaption {
+  text-align: center;  /* Center the caption */
+  font-size: 0.9em;
+  /* top padding */
+  padding-top: 10px;
+}
+

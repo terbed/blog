@@ -81,8 +81,10 @@ def cusum_filter(price: np.array, threshold: np.array):
 </div>
 
 The following figure shows the CUSUM filter applied on dollar bar close prices along with volatility calculated with the exponentially weighted moving average (EMA) of the absolute 60 point lagged returns with an EMA span of 60 points. On the second axe, we can see the used threshold for the filter (0.1% return) along with the S values. Every time the S value exceeds the threshold, we flag an event.
-<iframe src="/assets/figs/cusum/cusum.html" width="100%" height="750" frameborder="0"></iframe>
-_Figure 1: CUSUM filter applied on dollar bar close prices._
+<figure>
+  <iframe src="/assets/figs/cusum/cusum.html" width="100%" height="750" frameborder="0"></iframe>
+  <figcaption><strong>Figure 1:</strong> CUSUM filter applied on dollar bar close prices.</figcaption>
+</figure>
 
 We can see that in case of sideways movements the method filters out the noise effectively. CUSUM filter (aside from ML applications) can be successfully employed to eliminate multiple Bollinger Band crossing signals.
 
@@ -91,7 +93,9 @@ We can see that in case of sideways movements the method filters out the noise e
 It is more sensitive to handle to too sides separately. In case of a simple cumulative sum, if it goes negative approaching the bottom threshold and then turns in positive direction, first it has to reach 0 and then exceed the threshold. With separate positive and negative sums, at direction change we start right from 0.
 
 ### QUESTION 4
-If we were using raw price returns then with the sum we would compute the rebalanced cumulative return, while with log returns we compute the compounding cumulative return (the log return is additive, while the raw return is multiplicative). In general, the log return is more stable and easier to work with. If this is not clear, I recommend you to read the following outstanding blog post in this topic: [Returns and Log returns](https://gregorygundersen.com/blog/2022/02/06/log-returns/){:target="_blank"}.
+If we were using raw price and calculate percentage returns then with the sum we would compute the rebalancing cumulative return, while with log returns we compute the compounding cumulative return (the log return is additive, while the raw return is multiplicative). Furthermore, here we calculate the absolute return $$y_t - y_{t-1}$$ (and not the percentage change), applying the logarithm makes it relative.  In general, the log return is more stable and easier to work with. 
+
+If this is not clear, I recommend you to read the following outstanding blog post in this topic: [Returns and Log returns](https://gregorygundersen.com/blog/2022/02/06/log-returns/){:target="_blank"}.
 
 ### References
 - Advances in Financial Machine Learning by Marcos Lopez de Prado

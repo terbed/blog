@@ -51,7 +51,7 @@ In the followings I will list some of my projects and experiences.
 - [Hobbies](#hobby)
 - [Contact](#contact-me)
 
----
+
 
 ## Experience
 
@@ -87,7 +87,7 @@ __Computational Neuroscience Workgroup, Budapest, Hungary__
 - The source code (and thesis) can be found on [GitHub](https://github.com/terbed/parameter-inference).
 - This study was presented in the Society for Neuroscience (SfN) 2022 conference titled “Reliable estimation of neuronal biophysical parameters from electrophysiological recordings”. The presentation can be seen [here](https://www.dropbox.com/s/0kfvjkxp6jwm10s/SfN_2022_Kali_v2.mp4?dl=0).
 
----
+
 
 ## Publications
 
@@ -96,7 +96,7 @@ __Computational Neuroscience Workgroup, Budapest, Hungary__
 - Terbe, D; László, O.; Zarándy, Á. **"Deep-learning-based bright-field image generation from a single hologram using an unpaired dataset."** Optics Letters 46.22 (2021): 5567-5570. [Read here](https://eprints.sztaki.hu/10150/1/Terbe_5567_32478142_ny.pdf)
 - Nagy, Á., Földesy, P., Jánoki, I., Terbe, D., Siket, M., Szabó, M., ... & Zarándy, Á. **"Continuous camera-based premature-infant monitoring algorithms for NICU."** Applied Sciences, 11(16), 7215. [Read here](https://www.mdpi.com/2076-3417/11/16/7215)
 
----
+
 
 ## Conferences
 
@@ -111,7 +111,7 @@ __Computational Neuroscience Workgroup, Budapest, Hungary__
 - **CNNA 2018 (Budapest, Hungary)**
   - Presentation: _"Remote camera based measurement of human vital signs."_ by Terbe, Dániel, and Ákos Zarándy.
 
----
+
 
 ## Education
 
@@ -126,13 +126,13 @@ _Pázmány Péter Catholic University, Budapest_
 - _From 2017 to 2020_
 - Thesis: Remote camera-based pulse estimation using deep learning tools. [DeepRPPG](https://github.com/terbed/Deep-rPPG)
 
----
+
 
 ## Hobby
 
 I enjoy winter sports, mountain biking, and hiking. In my free time, I like to watch movies, create music, and engage in physical exercise or yoga.
 
----
+
 
 ## Contact me
 
