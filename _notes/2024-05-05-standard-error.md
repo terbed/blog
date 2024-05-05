@@ -8,7 +8,7 @@ Let's say we have $$ n $$ random sample of data points $$x_1, x_2, \ldots, x_n$$
 
 Formally, we can define the standard error of the mean as:
 
-$$ SEM \equiv \sqrt{Var(\bar{x})} \tag{1} $$
+$$ SEM = \sigma_{\bar{x}} \equiv \sqrt{Var(\bar{x})} \tag{1} $$
 
 where $$ \bar{x} $$ is the sample mean and $$ Var(\bar{x}) $$ is the variance of the sample mean.
 
@@ -26,20 +26,20 @@ We can easily calculate the sample mean $$ \bar{x} $$ as:
 
 $$ \bar{x} = \frac{T}{n} \tag{4} $$
 
-And now, we can calculate the variance of the sample mean $$ \bar{x} $$ which will lead us to our goal, to calculate the standard error of the mean, eq. $$(1)$$. We can calculate the variance of the sample mean as follows:
+And now, we can calculate the variance of the sample mean $$ \bar{x} $$ which will lead us to our goal, to calculate the standard error of the mean, eq. $$(1)$$. We can calculate the variance of the sample mean as follows[[Here we utilized the variance property $$Var(cX) = c^2Var(X)$$, see derivation in appendix $$A.1$$. ::lsn]]:
 
 $$ Var(\bar{x}) = Var\left(\frac{T}{n}\right) = \frac{1}{n^2}Var(T) = \frac{\sigma^2}{n} \tag{5} $$
 
-here we used the variance property $$Var(cX) = c^2Var(X)$$, see derivation in appendix $$A.1$$. Finally, we can calculate the standard error of the mean as:
+Finally, we can calculate the standard error of the mean as:
 
-$$ SEM = \sqrt{Var(\bar{x})} = \sqrt{\frac{\sigma^2}{n}} = \frac{\sigma}{\sqrt{n}} \tag{6} $$
+$$ \sigma_{\bar{x}} = \sqrt{Var(\bar{x})} = \sqrt{\frac{\sigma^2}{n}} = \frac{\sigma}{\sqrt{n}} \tag{6} $$
 
 This formula is crucial in statistics as it allows us to estimate the standard deviation of the sample mean from the exact population mean. It's important to note that the standard error of the mean decreases as the sample size increases. This is due to the fact that the sample mean converges to the population mean as the sample size increases, resulting in a more accurate estimate of the population mean (the law of large numbers).
 
 <div class="block info-block">
   <strong>NOTE</strong> 
 
-   Note that sigma is the population standard deviation, not the sample standard deviation. If the population standard deviation is unknown, we can estimate it using the sample standard deviation. In this case, the standard error of the mean is calculated as $$SEM = \frac{s}{\sqrt{n}}$$, where s is the sample standard deviation.
+   Note that sigma is the population standard deviation, not the sample standard deviation. If the population standard deviation is unknown, we can estimate it using the sample standard deviation. In this case, the standard error of the mean is calculated as $$\sigma_{\bar{x}} = \frac{s}{\sqrt{n}}$$, where s is the sample standard deviation.
 </div>
 
 ## In Practice
