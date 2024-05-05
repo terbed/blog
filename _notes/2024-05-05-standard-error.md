@@ -102,7 +102,7 @@ Here we examined our formula in case of 3 different random sampling size: 10, 10
 </div>
 
 
-# Appendix
+## Appendix
 Let $$X$$ be a random variable and $$c$$ a constant. We can calculate the variance of the random variable $$cX$$ as follows:
 
 $$ Var(cX) = \mathbb{E}[(cX - \mathbb{E}[cX])^2] = \mathbb{E}[(cX - c\mathbb{E}[X])^2] = \mathbb{E}[c^2(X - \mathbb{E}[X])^2] = c^2\mathbb{E}[(X - \mathbb{E}[X])^2] = c^2Var(X) \tag{A.1}$$
@@ -111,5 +111,5 @@ here we utilized that the expectation of a constant is the constant itself:
 
 $$ \mathbb{E}[cX] = c \cdot \mathbb{E}[X] \tag{A.2}$$
 
-# References
+## References
 - [https://en.wikipedia.org/wiki/Standard_error](https://en.wikipedia.org/wiki/Standard_error){:target="_blank"}
