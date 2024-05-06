@@ -8,11 +8,14 @@
 
 .highlight,
 .highlight .w {
-  border-radius: 8px; /* Adjust the radius to your liking */
-  border-color: rgb(140, 140, 140); /* Dark grey border */
-  border-width: 2px;
-  color: #abb2bf; /* Light grey text */
-  background-color: #282c34; /* Dark grey background */
+  border-top-width: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+  color: #383838; /* grey text */
+  background-color: #ffffff; /* Dark grey background */
+  /* Set up font size */
+  font-size: 0.88em;
 }
 
 .highlight .err {
@@ -27,7 +30,7 @@
 .highlight .cpf,
 .highlight .c1,
 .highlight .cs {
-  color: #5c6370; /* Soft grey for comments */
+  color: rgba(46, 155, 189, 0.89); /* Soft grey for comments */
 }
 
 .highlight .nv, .gs{
@@ -44,12 +47,12 @@
 
 .highlight .o,
 .highlight .ow {
-  color: #abb2bf; /* Light grey for operators */
+  color: rgb(17, 17, 17); /* Light grey for operators */
 }
 
 .highlight .p,
 .highlight .pi {
-  color: #abb2bf; /* Light grey for punctuation */
+  color: rgb(17, 17, 17); /* Light grey for punctuation */
 }
 
 .highlight .gi {
@@ -62,7 +65,6 @@
 
 .highlight .gh {
   color: #c678dd; /* Soft purple */
-  background-color: #282c34;
   font-weight: bold;
 }
 .highlight .gu {
@@ -71,15 +73,15 @@
 
 /* variable names */
 .highlight .n {
-  color: #abb2bf; /* Soft yellow for variable names */
+  color: rgba(72, 72, 72, 0.84); /* Soft yellow for variable names */
 }
 
 .highlight .bp {
-  color: #fad6e5; /* booleans */
+  color: #8f3c5d; /* booleans */
 }
 
 .highlight .nf {
-  color: #19f4a4; /* Soft cyan for user-defined functions */
+  color: #04bd7f; /* Soft cyan for user-defined functions */
 }
 
 .highlight .nb {
@@ -116,7 +118,7 @@
 .highlight .sh,
 .highlight .sx,
 .highlight .s1 {
-  color: #98c379; /* Soft green for strings */
+  color: #b0a752; /* Soft green for strings */
 }
 
 .highlight .sr {
