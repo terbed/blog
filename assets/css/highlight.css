@@ -253,10 +253,10 @@
 
 
 .abstract-block {
-  background-color: #F9F9F9; /* Light grey background for a minimalistic look */
+  background-color: rgba(225, 246, 238, 0.3); /* Light grey background for a minimalistic look */
 
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
+  border-left: 2.5px solid transparent;
+  border-right: 2.5px solid transparent;
   border-color: #098579;
   border-radius: 5px; /* Rounded corners */
   padding: 20px; /* More padding inside the block */
@@ -284,8 +284,8 @@
 }
 
 figure {
-  border-top: 1px solid #c2c2c2;  /* Top border line */
-  border-bottom: 1px solid #c2c2c2;  /* Bottom border line */
+  border-top: 1px solid #dadada;  /* Top border line */
+  border-bottom: 1px solid #dadada;  /* Bottom border line */
   padding: 10px 0;  /* Padding between content and lines */
   margin: 20px 0;  /* Spacing around the figure */
 }

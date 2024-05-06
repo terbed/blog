@@ -12,7 +12,7 @@ comments: false
 You can use the `abstract-block` class to create a block with a title and a paragraph. This is useful for creating abstracts, summaries, or TL;DRs.
 
 <div class="abstract-block">
-<strong>TL;DR</strong>
+<strong>Abstract</strong>
 <p>We adopted an unpaired neural network training
 technique, namely CycleGAN, to generate brightfield
 microscope-like images from hologram reconstructions.
