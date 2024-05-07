@@ -16,7 +16,7 @@ Let's derive the formula for the standard error of the mean, with introducing th
 
 $$ T = \sum_{i=1}^{n} x_i \tag{2} $$
 
-where $$ T $$ is the total sum of the random sample data points, which is a random variable itself. It's variance can be calculated utilizing the Bienaymé formula, which states that the variance of the sum of random variables is the sum of the variances of the individual random variables, given that they are independent:
+where $$ T $$ is the total sum of the random sample data points, which is a random variable itself. It's variance can be calculated utilizing the Bienaymé formula[^1], which states that the variance of the sum of random variables is the sum of the variances of the individual random variables, given that they are independent:
 
 $$ Var(T) = \sum_{i=1}^{n} Var(x_i) = n\sigma^2 \tag{3} $$
 
@@ -116,3 +116,5 @@ $$ \mathbb{E}[cX] = c \cdot \mathbb{E}[X] \tag{A.2}$$
 
 ## References
 - [https://en.wikipedia.org/wiki/Standard_error](https://en.wikipedia.org/wiki/Standard_error){:target="_blank"}
+
+[^1]: [https://gregorygundersen.com/blog/2024/01/04/bienaymes-identity/](https://gregorygundersen.com/blog/2024/01/04/bienaymes-identity/){:target="_blank"}
