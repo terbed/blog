@@ -26,7 +26,7 @@ We can easily calculate the sample mean $$ \bar{x} $$ as:
 
 $$ \bar{x} = \frac{T}{n} \tag{4} $$
 
-And now, we can calculate the variance of the sample mean $$ \bar{x} $$ which will lead us to our goal, to calculate the standard error of the mean, eq. $$(1)$$. We can calculate the variance of the sample mean as follows[[Here we utilized the variance property $$Var(cX) = c^2Var(X)$$, see derivation in appendix $$A.1$$. ::lsn]]:
+And now, we can calculate the variance of the sample mean $$ \bar{x} $$ which will lead us to our goal, to calculate the standard error of the mean, eq. $$(1)$$. We can calculate the variance of the sample mean as follows[[Here we utilize Equation $$(3)$$ and the variance property $$Var(cX) = c^2Var(X)$$, see derivation in appendix $$A.1$$. ::lsn]]:
 
 $$ Var(\bar{x}) = Var\left(\frac{T}{n}\right) = \frac{1}{n^2}Var(T) = \frac{\sigma^2}{n} \tag{5} $$
 
@@ -105,7 +105,10 @@ Here we examined our formula in case of 3 different random sampling size: 10, 10
 ## Appendix
 Let $$X$$ be a random variable and $$c$$ a constant. We can calculate the variance of the random variable $$cX$$ as follows:
 
-$$ Var(cX) = \mathbb{E}[(cX - \mathbb{E}[cX])^2] = \mathbb{E}[(cX - c\mathbb{E}[X])^2] = \mathbb{E}[c^2(X - \mathbb{E}[X])^2] = c^2\mathbb{E}[(X - \mathbb{E}[X])^2] = c^2Var(X) \tag{A.1}$$
+$$\begin{align}
+\text{Var}(cX) &= \mathbb{E}[(cX - \mathbb{E}[cX])^2] = \mathbb{E}[(cX - c\mathbb{E}[X])^2] \\
+               &= \mathbb{E}[c^2(X - \mathbb{E}[X])^2] = c^2 \mathbb{E}[(X - \mathbb{E}[X])^2] = c^2 \text{Var}(X) \tag{A.1}
+\end{align}$$
 
 here we utilized that the expectation of a constant is the constant itself:
 
