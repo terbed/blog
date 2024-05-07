@@ -4,13 +4,18 @@ permalink: /archive
 ---
 
 {% for collection in site.collections %}
-{% if collection.label != "pages" %}
+{% if collection.label != "pages" %} <!-- Exclude 'pages' from being listed -->
 
-  <h2>Items from {{ collection.label }}</h2>
+  <h2>Items from {{ collection.label | capitalize }}</h2>
   <ul>
-    {% for item in site[collection.label] %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% assign sorted_items = site[collection.label] | sort: 'date' | reverse %}
+    {% for item in sorted_items %}
+      <li>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+        {% if item.date %} - {{ item.date | date: "%B %d, %Y" }}{% endif %}
+      </li>
     {% endfor %}
   </ul>
-  {% endif %}
+
+{% endif %}
 {% endfor %}

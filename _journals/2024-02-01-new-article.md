@@ -1,5 +1,5 @@
 ---
-title: "February 1th, 2024 – New paper published"
+title: "New paper published"
 author: Dániel Terbe
 ---
 Today our new paper titled "Hologram Noise Model for Data Augmentation and Deep Learning" has been published in MDPI Sensors. 

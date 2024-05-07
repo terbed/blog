@@ -81,12 +81,16 @@ defaults:
     values:
       layout: post
       content-type: notes
+      category: "Note"
+      permalink: /notes/:title
   - scope:
       path: ""
       type: journals
     values:
       layout: post
       content-type: journals
+      category: "Journal"
+      permalink: /journals/:title
   - scope:
       path: ""
       type: pages
