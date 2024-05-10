@@ -115,14 +115,13 @@ __Computational Neuroscience Workgroup, Budapest, Hungary__
 
 ## Education
 
-### BSc. Physics with Theoretical Physics Specialization
-_Eötvös Loránd University, Budapest_
+### BSc. Physics – _Eötvös Loránd University, Budapest_
+**with Theoretical Physics Specialization**
 - _From 2013 to 2017_
 - Thesis: Statistical inference of biophysical neuron model parameters. [Parameter Inference](https://github.com/terbed/parameter-inference)
 
-### MSc. Info-Bionics Engineering
+### MSc. Info-Bionics Engineering – _Pázmány Péter Catholic University, Budapest_
  **with specialization in Bionic Interfaces and Integrated Structures**
-_Pázmány Péter Catholic University, Budapest_
 - _From 2017 to 2020_
 - Thesis: Remote camera-based pulse estimation using deep learning tools. [DeepRPPG](https://github.com/terbed/Deep-rPPG)
 
