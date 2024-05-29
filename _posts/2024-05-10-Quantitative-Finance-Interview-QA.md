@@ -17,7 +17,7 @@ Quantitative finance is a multidisciplinary field that combines finance, mathema
 
 The decision-making process in traditional finance are primarily based on judgement, intuition, and gut-feeling focusing on financial statements, market trends, and economic indicators interpreted through the lens of human experience. This approach relies heavily on the subjective insights of financial professionals. In contrast, quantitative finance relies on mathematical models, statistical methods, and computational algorithms to analyze financial data, derive insights, and make predictions – leading to a more objective, data-driven, evidence-based and systematic decision-making.
 
-The systematic approach enables quantitative finance team to work on the same project and collaborate across different expertise areas rather than working alone in silos – which is often the case in traditional finance – allowing more comprehensive and cohesive project development.
+The systematic approach enables quantitative finance team to work on the same project and collaborate across different expertise areas allowing more comprehensive and cohesive project development. In contrast, traditional financial professional often work independently in silos and the decision-making process is less transparent and may be more prone to biases.
  
 In conclusion, quantitative finance offers a more rigorous and systematic approach to financial analysis compared to traditional finance. By integrating mathematical, statistical, and computational techniques, it enables more objective, data-driven decision-making and fosters collaboration across different expertise areas.
 
