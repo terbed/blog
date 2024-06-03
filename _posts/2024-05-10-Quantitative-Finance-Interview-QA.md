@@ -19,7 +19,7 @@ The decision-making process in traditional finance is primarily based on judgmen
 
 The systematic approach enables quantitative finance team to work on the same project and collaborate across different expertise areas allowing more comprehensive and cohesive project development. In contrast, traditional financial professional often work independently in silos and the decision-making process is less transparent and may be more prone to biases.
  
-In conclusion, quantitative finance offers a more rigorous and systematic approach to financial analysis compared to traditional finance. By integrating mathematical, statistical, and computational techniques, it enables more objective, data-driven decision-making and fosters collaboration across different expertise areas.
+In conclusion, quantitative finance offers a more rigorous and systematic approach to decision-making compared to traditional finance. By integrating mathematical, statistical, and computational techniques, it enables more objective, data-driven decision-making and fosters collaboration across different expertise areas.
 
 ### Q2: What are the main types of financial assets?
 Financial assets are instruments that represent ownership or contractual right to an asset or a stream of income. They are several main types of financial assets:
