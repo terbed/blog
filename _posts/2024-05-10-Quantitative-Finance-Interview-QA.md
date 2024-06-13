@@ -22,11 +22,11 @@ The systematic approach enables quantitative finance team to work on the same pr
 In conclusion, quantitative finance offers a more rigorous and systematic approach to financial analysis compared to traditional finance. By integrating mathematical, statistical, and computational techniques, it enables more objective, data-driven decision-making and fosters collaboration across different expertise areas.
 
 ### Q2: What are the main types of financial assets?
-Financial assets are instruments that represent ownership or contractual right to an asset or a stream of income. They are several main types of financial assets:
+Financial assets are instruments that represent ownership or contractual right to an asset or a stream of income. There are several main types of financial assets:
 
 __1.) Stocks (Equities):__ Stocks represent ownership in a company and entitle the holder to a share of the company's profits and assets. Returns on stocks come from dividends and capital gains (capital appreciation). The value of the stock is determined by the company's performance and market demand.
 
-__2.) Bonds:__ Bonds are debt instruments issued by governments or corporations to raise capital. When an investor buys a bond, they are lending money to the issuer in exchange for periodic interest payments and the return of the principal amount at maturity. Bonds are considered less risky than stocks but offer lower returns.
+__2.) Bonds:__ Bonds are debt instruments issued by governments or corporations to raise capital. When investors buy a bond, they are lending money to the issuer in exchange for periodic interest payments and the return of the principal amount at maturity. Bonds are considered less risky than stocks but offer lower returns.
 
 __3.) Derivatives:__ Derivatives are financial instruments whose value is derived from an underlying asset. Common types of derivatives include options, futures, forwards, and swaps. Derivatives are used for hedging, speculation, and arbitrage.
 
